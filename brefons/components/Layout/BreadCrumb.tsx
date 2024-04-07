@@ -23,7 +23,7 @@ const BreadCrumb = () => {
 
                     path.length > 0 && (
                         <>
-                            <BreadcrumbItem key={index}>
+                            <BreadcrumbItem key={path}>
                                 <BreadcrumbLink href={path} className='text-gray-600 capitalize p-4'>{path}</BreadcrumbLink>
                             </BreadcrumbItem>
                             <BreadcrumbSeparator />
