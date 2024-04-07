@@ -22,34 +22,34 @@ const indicators = [
                 title: "1.1.1",
                 cards: [
                     {
-                        name: "irrigation",
-                        total: 20,
+                        name: "Irrigation Schemes",
+                        total: 8,
                         completed: 5
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Water Pans",
+                        total: 28,
+                        completed: 7
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Earth Dams",
+                        total: 28,
+                        completed: 16
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Boreholes",
+                        total: 28,
+                        completed: 20
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Shallow Wells",
+                        total: 28,
+                        completed: 23
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Subsurface Dams",
+                        total: 28,
+                        completed: 12
                     }
                 ]
             },
