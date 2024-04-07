@@ -4,6 +4,9 @@ import { RootState } from "@/Redux/Store"
 import { Button } from "@/shadcn/ui/button"
 import { useDispatch, useSelector } from "react-redux"
 
+import { Input } from "@/shadcn/ui/input"
+import { motion } from "framer-motion"
+
 
 
 export const HamBurgerButton = () => {
@@ -20,3 +23,20 @@ export const HamBurgerButton = () => {
         </>
     )
 }
+
+
+
+
+export function SearchInput() {
+  return (
+    <motion.div className="flex w-full mx-2 max-w-sm rounded-md items-center space-x-2" initial={{x:15, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:0.8, ease:"easeInOut"}}>
+      <Input type="text" placeholder="Search for pages..."  className="rounded-md outline-none focus:border-gray-400 ring:bg-gray-400" style={{
+        borderRadius:"5px",
+        borderColor:"gray"
+      }} />
+    </motion.div>
+  )
+}
+
+
+
