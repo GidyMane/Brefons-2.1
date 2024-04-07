@@ -349,25 +349,39 @@ const indicators = [
 
 const ComponentOne = () => {
 
-    const [activeTab, setActiveTab] = useState("")
+    // Assuming indicators is defined somewhere
+    const defaultActiveTabs = indicators.map(column => column.indicators.length > 0 ? column.indicators[0].title : "");
+
+    const [activeTabs, setActiveTabs] = useState(defaultActiveTabs);
+
+    const handleTabChange = (columnIndex: number, value: string) => {
+        setActiveTabs(prevTabs => {
+            const newTabs = [...prevTabs];
+            newTabs[columnIndex] = value;
+            return newTabs;
+        });
+    };
 
 
     return (
         <div className='p-4 w-full'>
-
             <div className='grid md:grid-cols-3 gap-4 w-full'>
-
-                {indicators.map((item, index) => (
-                    <div className='col-span-1' key={index}>
-                        <Tabs defaultValue={item.indicators[0].title} className="w-[400px]">
+                {indicators.map((column, columnIndex) => (
+                    <div className='col-span-1' key={columnIndex}>
+                        <Tabs defaultValue={column.indicators[0].title} className="w-[400px]">
                             <TabsList>
-                                {item.indicators.map((item, index) => (
-                                    <TabsTrigger key={index} value={item.title} className='bg-gray-400 px-2 gap-2 mx-2 rounded-full'>{item.title}</TabsTrigger>
-
+                                {column.indicators.map((item, index) => (
+                                    <TabsTrigger
+                                        key={index}
+                                        value={item.title}
+                                        className={`bg-gray-400 px-2 gap-2 mx-2 rounded-full ${activeTabs[columnIndex] === item.title ? 'bg-blue-500' : ''}`}
+                                        onClick={() => handleTabChange(columnIndex, item.title)}
+                                    >
+                                        {item.title}
+                                    </TabsTrigger>
                                 ))}
                             </TabsList>
-                            {item.indicators.map((item, number) => (
-
+                            {column.indicators.map((item, number) => (
                                 <TabsContent value={item.title} key={number} className='w-full flex items-center justify-start gap-3 flex-wrap'>
                                     {item.cards.map((card, index) => (
                                         <Card className='cursor-pointer transition-all duration-150' key={index}>
@@ -376,28 +390,17 @@ const ComponentOne = () => {
                                                 <CardDescription>Card Description</CardDescription>
                                             </CardHeader>
                                             <CardContent className='my-4 p-2 flex justify-between items-center'>
-                                                <p>{card.completed}/
-                                                    <span>{card.total}</span></p>
-                                                    <Button className='px-3 text-gray-400 py-2 flex justify-between items-center cursor-pointer'>View more
-                                                    
-                                                    </Button>
+                                                <p>{card.completed}/<span>{card.total}</span></p>
+                                                <Button className='px-3 text-gray-400 py-2 flex justify-between items-center cursor-pointer'>View more</Button>
                                             </CardContent>
-
                                         </Card>
                                     ))}
-
                                 </TabsContent>
                             ))}
-
-
                         </Tabs>
                     </div>
                 ))}
-
-
-
             </div>
-
         </div>
     )
 }
