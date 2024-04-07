@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 flex items-center justify-between py-4">
         <div className="flex flex-1 items-center justify-start gap-4 min-[375px]:gap-4 lg:gap-4">
           <HamBurgerButton />
-          <Link href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+          <Link href="https://flowbite.com/" className="flex items-center mb-0 space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Brefons</span>
           </Link>        
