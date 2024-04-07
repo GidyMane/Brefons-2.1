@@ -3,6 +3,7 @@ import SideBar from "@/components/Layout/SideBar";
 import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
 import ReduxUiProvider from "@/Redux/ReduxUiProvider";
+import BreadCrumb from "@/components/Layout/BreadCrumb";
 
 
 export const metadata: Metadata = {
@@ -20,12 +21,15 @@ export default function RootLayout({
             <ReduxUiProvider>
                 <SideBar />
                 <Navbar />
-                <div className="container h-[50vh]">
+                <div className="md:container h-[50vh] w-full">
+                    <div className="my-4">
+                        <BreadCrumb />
+                    </div>
                     {children}
 
                 </div>
                 <div className="bottom-0 fixed w-full bg-transparent backdrop-blur-sm">
-                <Footer />
+                    <Footer />
 
                 </div>
             </ReduxUiProvider>

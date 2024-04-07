@@ -116,7 +116,7 @@ export default function SideBar() {
                         <h2 className="text-2xl font-bold mb-4 text-blue-500">BREFONS</h2>
 
 
-                        <aside id="default-sidebar" className="top-0 left-0 z-40 w-full h-full transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+                        <aside id="default-sidebar" className="top-0 left-0 z-40 w-full h-full " aria-label="Sidebar">
                             <div className="h-full w-full">
                                 <ul className="space-y-2 font-medium mt-8">
                                     <div className='my-4'>
@@ -183,7 +183,7 @@ export default function SideBar() {
 
                     </div>
 
-                    <div className='mt-10 rounded-full flex items-center gap-4 justify-start outline-1'>
+                    <div className='mt-10 rounded-full bottom-0 fixed flex items-center gap-4 justify-start outline-1'>
                         <Avatar className='rounded-full flex items-center justify-center md:h-10 md:w-10 '>
                             <AvatarImage src="https://github.com/shadcn.png" className='rounded-full text-center flex justify-center items-center' />
                             <AvatarFallback className='flex items-center justify-center'>User</AvatarFallback>

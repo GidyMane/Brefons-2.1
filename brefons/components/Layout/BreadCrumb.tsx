@@ -1,0 +1,42 @@
+"use client"
+import { usePathname } from 'next/navigation'
+
+import React from 'react'
+import {
+    Breadcrumb,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    BreadcrumbList,
+    BreadcrumbPage,
+    BreadcrumbSeparator,
+} from "@/shadcn/ui/breadcrumb"
+
+
+const BreadCrumb = () => {
+    const pathname = usePathname().split("/")
+
+
+    return (
+        <Breadcrumb>
+            <BreadcrumbList>
+                {pathname.map((path: string, index: number) => (
+
+                    path.length > 0 && (
+                        <>
+                            <BreadcrumbItem key={index}>
+                                <BreadcrumbLink href={path} className='text-gray-600 capitalize p-4'>{path}</BreadcrumbLink>
+                            </BreadcrumbItem>
+                            <BreadcrumbSeparator />
+                        </>
+                    )
+
+
+                ))}
+
+            </BreadcrumbList>
+        </Breadcrumb>
+
+    )
+}
+
+export default BreadCrumb
