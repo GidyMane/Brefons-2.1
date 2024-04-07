@@ -104,105 +104,11 @@ const indicators = [
                 title: "1.2.1",
                 cards: [
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Area of Agriculture and Pastoral Land under Sustainable Management",
+                        total: 5000,
+                        completed: 969
                     }
-                ]
-            },
-            {
-                title: "1.2.2",
-                cards: [
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    }
-                ]
-            },
-            {
-                title: "1.2.3",
-                cards: [
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    }
+
                 ]
             }
         ]
@@ -214,104 +120,9 @@ const indicators = [
                 title: "1.3.1",
                 cards: [
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    }
-                ]
-            },
-            {
-                title: "1.3.2",
-                cards: [
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    }
-                ]
-            },
-            {
-                title: "1.3.3",
-                cards: [
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Farmers and Pastoralists with access to innovative technologies and practices",
+                        total: 5000,
+                        completed: 1200
                     }
                 ]
             }
