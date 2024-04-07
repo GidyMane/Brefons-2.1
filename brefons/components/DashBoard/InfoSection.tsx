@@ -17,7 +17,7 @@ const tabs = [
     {
         title: "comp3",
         value: "component 3",
-        content: <div className='w-full bg-green-400'>hello</div>
+        content: <ComponentThree/>
     }
 ]
 
