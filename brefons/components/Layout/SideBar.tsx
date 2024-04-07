@@ -7,9 +7,67 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/Redux/Store';
 import { toggleSidebar } from '@/Redux/Slices/MenuSlice';
 import { Avatar, AvatarFallback, AvatarImage } from '@/shadcn/ui/avatar';
+import Link from 'next/link';
 
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
+
+const menu = {
+    "home": [
+        {
+            gif: "reports.gif",
+            fallback: "reports",
+            name: "Reports",
+            link: "/reports"
+        },
+        {
+            gif: "technical.gif",
+            fallback: "technical",
+            name: "Technical Parameters",
+            link: "/technical"
+        },
+        {
+            gif: "activity.gif",
+            fallback: "activity",
+            name: "activities",
+            link: "/activities"
+        },
+        {
+            gif: "parameters.gif",
+            fallback: "operational",
+            name: "Operational Parameters",
+            link: "/operationalparameters"
+        },
+    ],
+    "Project Planning": [
+        {
+            gif: "project.png",
+            fallback: "projects",
+            name: "Projects",
+            link: "/projects"
+        },
+        {
+            gif: "target.gif",
+            fallback: "targets",
+            name: "Target",
+            link: "/targets"
+        },
+        {
+            gif: "settings.gif",
+            fallback: "settings",
+            name: "Settings",
+            link: "/settings"
+        },
+        {
+            gif: "logout.gif",
+            fallback: "logout",
+            name: "Logout",
+            link: ""
+        },
+
+
+    ]
+}
 
 export default function SideBar() {
     // const [state, setState] = React.useState({
@@ -40,6 +98,8 @@ export default function SideBar() {
 
 
 
+
+
     return (
         <div>
             <SwipeableDrawer
@@ -48,116 +108,86 @@ export default function SideBar() {
                 onClose={toggleDrawer()}
                 onOpen={toggleDrawer()}
             >
-                <div className='h-full bg-white shadow-md rounded-md p-4'>
+                <div className='w-full h-full  flex flex-col rounded-md p-4'>
                     <div>
                         <h2 className="text-2xl font-bold mb-4 text-blue-500">BREFONS</h2>
 
 
-                        <aside id="default-sidebar" className="top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-                            <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-                                <ul className="space-y-2 font-medium">
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/reports.gif" className='' />
-                                                    <AvatarFallback>reports</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="ms-3">Reports</span>
-                                        </a>
+                        <aside id="default-sidebar" className="top-0 left-0 z-40 w-full h-full transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+                            <div className="h-full w-full">
+                                <ul className="space-y-2 font-medium mt-8">
+                                    <div className='my-4'>
+
+
+                                        {menu["home"].map((menuItem, index) => (
+                                            <li key={index}>
+                                                <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                    <div className='h-5 w-5 rounded-full mx-2 outline-1'>
+                                                        <Avatar className='rounded-full'>
+                                                            <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
+                                                            <AvatarFallback>{menuItem.fallback}</AvatarFallback>
+                                                        </Avatar>
+                                                    </div>
+                                                    <span className="ms-2">{menuItem.name}</span>
+                                                </Link>
+                                            </li>
+                                        ))}
+
+                                    </div>
+
+
+
+                                    <li className=''>
+                                        <h3 className="text-lg font-bold my-6">Project Planning</h3>
                                     </li>
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/technical.gif" className='' />
-                                                    <AvatarFallback>tech</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="flex-1 ms-3 whitespace-nowrap">Technical Parameters</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/parameters.gif" className='' />
-                                                    <AvatarFallback>Operational</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="flex-1 ms-3 whitespace-nowrap">Operational Parameters</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/activity.gif" className='' />
-                                                    <AvatarFallback>activities</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="flex-1 ms-3 whitespace-nowrap">Activities</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-lg font-bold my-2">Project Planning</h3>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/project.png" className='' />
-                                                    <AvatarFallback>project</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="ms-3">Projects</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/target.gif" className='' />
-                                                    <AvatarFallback>target</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="ms-3">Annual Targets</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/settings.gif" className='' />
-                                                    <AvatarFallback>settings</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="ms-3">Settings</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                            <div className='h-10 w-10 rounded-full mx-2 outline-1'>
-                                                <Avatar className='rounded-full'>
-                                                    <AvatarImage src="/logout.gif" className='' />
-                                                    <AvatarFallback>logout</AvatarFallback>
-                                                </Avatar>
-                                            </div>
-                                            <span className="ms-3">Logout</span>
-                                        </a>
-                                    </li>
+
+                                    <div className='my-4'>
+                                        {menu["Project Planning"].map((menuItem, index) => (
+                                            <li key={index}>
+                                                {menuItem.name === "logout" ? (
+                                                    <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                        <div className='h-5 w-5 rounded-full mx-2 outline-1'>
+                                                            <Avatar className='rounded-full'>
+                                                                <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
+                                                                <AvatarFallback>{menuItem.fallback}</AvatarFallback>
+                                                            </Avatar>
+                                                        </div>
+                                                        <span className="ms-2">{menuItem.name}</span>
+                                                    </div>
+                                                ) : (
+                                                    <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                        <div className='h-5 w-5 rounded-full mx-2 outline-1'>
+                                                            <Avatar className='rounded-full'>
+                                                                <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
+                                                                <AvatarFallback>{menuItem.fallback}</AvatarFallback>
+                                                            </Avatar>
+                                                        </div>
+                                                        <span className="ms-2">{menuItem.name}</span>
+                                                    </Link>
+                                                )}
+
+                                            </li>
+                                        ))}
+
+                                    </div>
+
+
                                 </ul>
-                                
+
 
                             </div>
                         </aside>
-                        <div className='md:h-10 md:w-10 rounded-full outline-1'>
-                                    <Avatar className='rounded-full'>
-                                        <AvatarImage src="https://github.com/shadcn.png" className='rounded-full' />
-                                        <AvatarFallback>User</AvatarFallback>
-                                    </Avatar>
-                                </div>
+
+                    </div>
+
+                    <div className='mt-10 rounded-full flex items-center gap-4 justify-start outline-1'>
+                        <Avatar className='rounded-full flex items-center justify-center md:h-10 md:w-10 '>
+                            <AvatarImage src="https://github.com/shadcn.png" className='rounded-full text-center flex justify-center items-center' />
+                            <AvatarFallback className='flex items-center justify-center'>User</AvatarFallback>
+                        </Avatar>
+                        <div>
+                            <p>user@gmail.com</p>
+                        </div>
                     </div>
 
 
