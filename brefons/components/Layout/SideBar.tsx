@@ -148,10 +148,17 @@ export default function SideBar() {
                                         </a>
                                     </li>
                                 </ul>
-                                <p className="mt-8 text-gray-500 dark:text-gray-400">ADMINISTRATOR</p>
+                                <div className='md:h-10 md:w-10 rounded-full outline-1'>
+            <Avatar className='rounded-full'>
+              <AvatarImage src="https://github.com/shadcn.png" className='rounded-full' />
+              <AvatarFallback>User</AvatarFallback>
+            </Avatar>
+          </div>
+                                
                             </div>
                         </aside>
                     </div>
+                
 
                 </div>
             </SwipeableDrawer>
