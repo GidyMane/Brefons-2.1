@@ -4,35 +4,23 @@ import React from 'react'
 import { HamBurgerButton, SearchInput } from './HandleNavBarActions';
 import Image from 'next/image';
 import { ModeToggle } from './ThemeToggler';
+import Link from 'next/link';
 
 const NavBar = () => {
 
   return (
     <div className='w-full border-b'>
       <div className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 flex items-center justify-between py-4">
-        <div className="flex flex-1 items-center justify-start gap-2 min-[375px]:gap-4 lg:gap-0">
+        <div className="flex flex-1 items-center justify-start gap-4 min-[375px]:gap-4 lg:gap-4">
           <HamBurgerButton />
-          <LogoText  />
+          <Link href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Brefons</span>
+          </Link>        
         </div>
-        {/* <div className="gap-8 lg:flex">
-          <Button  >
-            Feature
-          </Button>
-          <Button>
-            About
-          </Button>
-          <Button>
-            Pricing
-          </Button>
-          <Button>
-            Contact
-          </Button>
-        </div> */}
         <div className="flex flex-1 items-center justify-end gap-2 min-[375px]:gap-4 md:gap-6">
-          <SearchInput/>
-          {/* <Button aria-label="Search">
-            <svg width="16" height="16" className=' hover:cursor-pointer' viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 6.5C10 8.433 8.433 10 6.5 10C4.567 10 3 8.433 3 6.5C3 4.567 4.567 3 6.5 3C8.433 3 10 4.567 10 6.5ZM9.30884 10.0159C8.53901 10.6318 7.56251 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5C11 7.56251 10.6318 8.53901 10.0159 9.30884L12.8536 12.1464C13.0488 12.3417 13.0488 12.6583 12.8536 12.8536C12.6583 13.0488 12.3417 13.0488 12.1464 12.8536L9.30884 10.0159Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-          </Button> */}
+          <SearchInput />
+          
           <div className='md:h-10 md:w-10 h-auto m-auto rounded-full mx-2 outline-1'>
             <Avatar className='rounded-full'>
               <AvatarImage src="/maps.png" className='rounded-full' />
@@ -46,7 +34,7 @@ const NavBar = () => {
             </Avatar>
           </div>
 
-          <ModeToggle/>
+          <ModeToggle />
 
         </div>
       </div>
