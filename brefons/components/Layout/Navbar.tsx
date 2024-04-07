@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className="flex flex-1 items-center justify-end gap-2 min-[375px]:gap-4 md:gap-6">
           <SearchInput />
           
-          <div className='md:h-10 md:w-10 h-auto m-auto rounded-full mx-2 outline-1'>
+          <div className='md:h-10 md:w-10 rounded-full mx-2 outline-1'>
             <Avatar className='rounded-full'>
               <AvatarImage src="/maps.png" className='rounded-full h-8 w-8' />
               <AvatarFallback>maps</AvatarFallback>

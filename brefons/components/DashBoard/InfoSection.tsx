@@ -1,11 +1,12 @@
 import React from 'react'
 import { Tabs } from '../Aceternity/tabs'
+import ComponentOne from './ComponentOne'
 
 const tabs = [
     {
         title: "comp1",
         value: "irrigation",
-        content: <div className='w-full bg-red-400'>hello</div>
+        content: <ComponentOne/>
     },
     {
         title: "comp2",

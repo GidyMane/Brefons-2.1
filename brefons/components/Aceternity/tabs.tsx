@@ -68,7 +68,7 @@ export const Tabs = ({
               />
             )}
 
-            <span className="relative block text-sm text-black dark:text-white">
+            <span className="relative block text-black dark:text-white">
               {tab.title}
             </span>
           </button>
@@ -114,7 +114,7 @@ export const FadeInDiv = ({
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,
           }}
-          className={cn("w-full h-full absolute top-0 left-0", className)}
+          className={cn(`w-full h-full absolute top-0 left-0 ${isActive(tab) ? 'block' : 'hidden'}`, className)}
         >
           {tab.content}
         </motion.div>
