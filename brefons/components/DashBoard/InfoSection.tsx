@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tabs } from '../Aceternity/tabs'
 import ComponentOne from './ComponentOne'
+import ComponentTwo from './ComponentTwo'
 
 const tabs = [
     {
@@ -11,7 +12,7 @@ const tabs = [
     {
         title: "comp2",
         value: "component 2",
-        content: <div className='w-full bg-blue-400'>hello</div>
+        content: <ComponentTwo/>
     },
     {
         title: "comp3",
