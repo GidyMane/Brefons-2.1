@@ -57,69 +57,41 @@ const indicators = [
                 title: "1.1.2",
                 cards: [
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Irrigation",
+                        total: 800,
+                        completed: 420
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Pastures",
+                        total: 840,
+                        completed: 310
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Rangelands",
+                        total: 5000,
+                        completed: 2000
                     },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    }
+                    
+                    
                 ]
             },
             {
                 title: "1.1.3",
                 cards: [
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Livestock Markets",
+                        total: 21,
+                        completed: 6
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Vet Diagnostic labs",
+                        total: 7,
+                        completed: 2
                     },
                     {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
-                    },
-                    {
-                        name: "irrigation",
-                        total: 20,
-                        completed: 5
+                        name: "Border Areas Clusters",
+                        total: 2,
+                        completed: 1
                     }
                 ]
             }
