@@ -9,7 +9,7 @@ import Link from 'next/link';
 const NavBar = () => {
 
   return (
-    <div className='w-full border-b'>
+    <div className='w-full border-b fixed bg-transparent backdrop-blur-sm z-40'>
       <div className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-8 flex items-center justify-between py-4">
         <div className="flex flex-1 items-center justify-start gap-4 min-[375px]:gap-4 lg:gap-4">
           <HamBurgerButton />

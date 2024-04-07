@@ -21,7 +21,7 @@ export default function RootLayout({
             <ReduxUiProvider>
                 <SideBar />
                 <Navbar />
-                <div className="md:container h-[50vh] w-full">
+                <div className="md:container  w-full pt-20">
                     <div className="my-4">
                         <BreadCrumb />
                     </div>
