@@ -20,7 +20,7 @@ const BreadCrumb = () => {
         <Breadcrumb>
             <BreadcrumbList>
                 {pathname.map((path: string, index: number) => (
-                    <div key={index}>
+                    <React.Fragment key={index}>
                         {path.length > 0 && (
                             <>
                                 <BreadcrumbItem key={path}>
@@ -29,7 +29,7 @@ const BreadCrumb = () => {
                                 <BreadcrumbSeparator />
                             </>
                         )}
-                    </div>
+                    </React.Fragment>
 
                 ))}
 
