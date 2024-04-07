@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import SideBar from "@/components/Layout/SideBar";
 import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
+import ReduxUiProvider from "@/Redux/ReduxUiProvider";
 
 
 export const metadata: Metadata = {
@@ -16,13 +17,15 @@ export default function RootLayout({
 }>) {
     return (
         <div className="h-[100vh] rounded-md">
-            <SideBar />
-            <Navbar />
-            <div className="container h-[50vh]">
-                {children}
+            <ReduxUiProvider>
+                <SideBar />
+                <Navbar />
+                <div className="container h-[50vh]">
+                    {children}
 
-            </div>
-            <Footer />
+                </div>
+                <Footer />
+            </ReduxUiProvider>
         </div>
     );
 }
