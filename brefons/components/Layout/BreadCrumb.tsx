@@ -20,16 +20,16 @@ const BreadCrumb = () => {
         <Breadcrumb>
             <BreadcrumbList>
                 {pathname.map((path: string, index: number) => (
-
-                    path.length > 0 && (
-                        <>
-                            <BreadcrumbItem key={path}>
-                                <BreadcrumbLink href={path} className='text-gray-600 capitalize p-4'>{path}</BreadcrumbLink>
-                            </BreadcrumbItem>
-                            <BreadcrumbSeparator />
-                        </>
-                    )
-
+                    <div key={index}>
+                        {path.length > 0 && (
+                            <>
+                                <BreadcrumbItem key={path}>
+                                    <BreadcrumbLink href={path} className='text-gray-600 capitalize p-4'>{path}</BreadcrumbLink>
+                                </BreadcrumbItem>
+                                <BreadcrumbSeparator />
+                            </>
+                        )}
+                    </div>
 
                 ))}
 
