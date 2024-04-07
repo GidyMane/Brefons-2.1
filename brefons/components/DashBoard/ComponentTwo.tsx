@@ -16,97 +16,30 @@ import { Button } from '@/shadcn/ui/button'
 
 const indicators = [
     {
-        title: "1.1",
+        title: "2.1",
         indicators: [
             {
-                title: "1.1.1",
+                title: "2.1.1",
                 cards: [
                     {
-                        name: "Irrigation Schemes",
-                        total: 8,
-                        completed: 5
-                    },
-                    {
-                        name: "Water Pans",
-                        total: 28,
-                        completed: 7
-                    },
-                    {
-                        name: "Earth Dams",
-                        total: 28,
-                        completed: 16
-                    },
-                    {
-                        name: "Boreholes",
-                        total: 28,
-                        completed: 20
-                    },
-                    {
-                        name: "Shallow Wells",
-                        total: 28,
-                        completed: 23
-                    },
-                    {
-                        name: "Subsurface Dams",
-                        total: 28,
-                        completed: 12
-                    }
-                ]
-            },
-            {
-                title: "1.1.2",
-                cards: [
-                    {
-                        name: "Irrigation",
-                        total: 800,
-                        completed: 420
-                    },
-                    {
-                        name: "Pastures",
-                        total: 840,
-                        completed: 310
-                    },
-                    {
-                        name: "Rangelands",
+                        name: "Farmers and Pastoralists benefitting from extension on using digital advisory services",
                         total: 5000,
-                        completed: 2000
-                    },
-                    
-                    
-                ]
-            },
-            {
-                title: "1.1.3",
-                cards: [
-                    {
-                        name: "Livestock Markets",
-                        total: 21,
-                        completed: 6
-                    },
-                    {
-                        name: "Vet Diagnostic labs",
-                        total: 7,
-                        completed: 2
-                    },
-                    {
-                        name: "Border Areas Clusters",
-                        total: 2,
-                        completed: 1
+                        completed: 769
                     }
                 ]
             }
         ]
     },
     {
-        title: "1.2",
+        title: "2.2",
         indicators: [
             {
-                title: "1.2.1",
+                title: "2.2.1",
                 cards: [
                     {
-                        name: "Area of Agriculture and Pastoral Land under Sustainable Management",
-                        total: 5000,
-                        completed: 969
+                        name: "Number of people benefitting from enhanced entrepreneurship skills development and access to finance",
+                        total: 3000,
+                        completed: 545
                     }
 
                 ]
@@ -114,15 +47,15 @@ const indicators = [
         ]
     },
     {
-        title: "1.3",
+        title: "2.3",
         indicators: [
             {
-                title: "1.3.1",
+                title: "2.3.1",
                 cards: [
                     {
-                        name: "Farmers and Pastoralists with access to innovative technologies and practices",
-                        total: 5000,
-                        completed: 1200
+                        name: "Number of people with access to renewable energy for households",
+                        total: 2000,
+                        completed: 624
                     }
                 ]
             }
