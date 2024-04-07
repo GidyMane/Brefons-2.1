@@ -2,6 +2,7 @@ import React from 'react'
 import { Tabs } from '../Aceternity/tabs'
 import ComponentOne from './ComponentOne'
 import ComponentTwo from './ComponentTwo'
+import ComponentThree from './ComponentThree'
 
 const tabs = [
     {
