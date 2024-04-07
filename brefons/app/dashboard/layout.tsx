@@ -24,7 +24,10 @@ export default function RootLayout({
                     {children}
 
                 </div>
+                <div className="bottom-0 fixed w-full bg-transparent backdrop-blur-sm">
                 <Footer />
+
+                </div>
             </ReduxUiProvider>
         </div>
     );
