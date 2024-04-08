@@ -16,51 +16,51 @@ type Anchor = 'top' | 'left' | 'bottom' | 'right';
 const menu = {
     "home": [
         {
-            gif: "reports.gif",
+            gif: "/reports.gif",
             fallback: "reports",
             name: "Reports",
-            link: "reports"
+            link: "/reports"
         },
         {
-            gif: "technical.gif",
+            gif: "/technical.gif",
             fallback: "technical",
             name: "Technical Parameters",
-            link: "technical"
+            link: "/technical"
         },
         {
-            gif: "activity.gif",
+            gif: "/activity.gif",
             fallback: "activity",
             name: "activities",
-            link: "activities"
+            link: "/activities"
         },
         {
-            gif: "parameters.gif",
+            gif: "/parameters.gif",
             fallback: "operational",
             name: "Operational Parameters",
-            link: "operationalparameters"
+            link: "/operationalparameters"
         },
     ],
     "Project Planning": [
         {
-            gif: "project.png",
+            gif: "/project.png",
             fallback: "projects",
             name: "Projects",
             link: "projects"
         },
         {
-            gif: "target.gif",
+            gif: "/target.gif",
             fallback: "targets",
             name: "Target",
-            link: "targets"
+            link: "/targets"
         },
         {
-            gif: "settings.gif",
+            gif: "/settings.gif",
             fallback: "settings",
             name: "Settings",
-            link: "settings"
+            link: "/settings"
         },
         {
-            gif: "logout.gif",
+            gif: "/logout.gif",
             fallback: "logout",
             name: "Logout",
             link: ""
@@ -135,7 +135,7 @@ export default function SideBar() {
 
                                             {menu["home"].map((menuItem, index) => (
                                                 <li key={index}>
-                                                    <Link href={`${pathname[1]}/${menuItem.link}`} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group" onClick={()=>dispatch(toggleSidebar())}>
+                                                    <Link href={`/brefons.console${menuItem.link}`} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group" onClick={()=>dispatch(toggleSidebar())}>
                                                         <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                             <Avatar className='rounded-full'>
                                                                 <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
