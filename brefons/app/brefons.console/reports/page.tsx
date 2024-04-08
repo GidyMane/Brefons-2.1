@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className='w-full'>
       {/* tabs */}
-      <div className='mt-4 scroll-pb-16 w-full'>
+      <div className='mt-4 scroll-pb-16'>
         <InfoSection />
 
       </div>

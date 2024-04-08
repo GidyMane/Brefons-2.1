@@ -24,7 +24,7 @@ const tabs = [
 
 const InfoSection = () => {
     return (
-        <div  className='w-full scroll-mb-10 px-4'>
+        <div className='w-full'>
             <Tabs tabs={tabs}  contentClassName='' containerClassName='dark:text-gray-800'/>
         </div>
     )
