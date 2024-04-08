@@ -23,9 +23,14 @@ const tabs = [
     },
     {
         title: "Comp4",
-        Value: "component 4",
+        value: "component 4",
         content: <ComponentFour/>
     }
+    // {
+    //     title: "comp4",
+    //     Value: "component 4",
+    //     content: <ComponentFour/>
+    // }
     
 ]
 
