@@ -21,14 +21,14 @@ export default function RootLayout({
             <ReduxUiProvider>
                 <SideBar />
                 <Navbar />
-                <div className="w-full pt-20">
-                    <div className="my-4">
+                <div className="w-full py-20 ">
+                    <div className="my-4 mx-2">
                         <BreadCrumb />
                     </div>
                     {children}
 
                 </div>
-                <div className="bottom-0 fixed w-full bg-transparent backdrop-blur-sm">
+                <div className="bottom-0 w-full bg-transparent backdrop-blur-sm">
                     <Footer />
 
                 </div>
