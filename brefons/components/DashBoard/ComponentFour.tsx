@@ -19,22 +19,22 @@ const indicators = [
         title: "4.1",
         indicators: [
             {
-                title: "1.1.1",
+                title: "4.1.1",
                 cards: [
                     {
-                        name: "Irrigation Schemes",
-                        total: 8,
-                        completed: 5
+                        name: "Gender action plans implemented",
+                        total: 1,
+                        completed: 1
                     }
                 ]
             },
             {
-                title: "1.1.2",
+                title: "4.1.2",
                 cards: [
                     {
-                        name: "Irrigation",
-                        total: 800,
-                        completed: 420
+                        name: "Baseline Surveys Done",
+                        total: 1,
+                        completed: 1
                     }
 
                 ]
