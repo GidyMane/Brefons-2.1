@@ -100,13 +100,14 @@ const ComponentTwo = () => {
                         {column.indicators.map((item, number) => (
                             <TabsContent value={item.title} key={number} className='w-full flex items-center justify-start gap-3 flex-wrap'>
                                 {item.cards.map((card, index) => (
-                                    <Card className='cursor-pointer shadow-md rounded-md p-4 transition-all duration-150' key={index}>
+                                    <Card className='cursor-pointer shadow-md rounded p-4 transition-all duration-150' key={index}>
                                         <CardHeader className=''>
                                             <CardTitle className='capitalize'>{card.name}</CardTitle>
-                                            <CardDescription>Card Description</CardDescription>
+                                            {/* <CardDescription>Card Description</CardDescription> */}
                                         </CardHeader>
                                         <CardContent className='my-4 p-2 flex justify-between items-center'>
-                                            <p>{card.completed}/<span>{card.total}</span></p>
+                                            <p className='bg-green-400 px-4 py-2 rounded-full text-white text-sm font-bold'>completed: {card.completed}</p>
+                                            <p className='bg-gray-200 px-4 py-2 rounded-full text-black text-sm font-bold'>Total: {card.total}</p>
                                             <Button className='px-3 text-gray-400 py-2 flex justify-between items-center cursor-pointer'>View more</Button>
                                         </CardContent>
                                     </Card>

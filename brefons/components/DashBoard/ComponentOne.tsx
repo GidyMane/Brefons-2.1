@@ -166,10 +166,10 @@ const ComponentOne = () => {
                             {column.indicators.map((item, number) => (
                                 <TabsContent value={item.title} key={number} className='grid md:grid-cols-3 gap-2'>
                                     {item.cards.map((card, index) => (
-                                        <Card className='cursor-pointer w-full transition-all shadow-md rounded-md p-4 mx-2 duration-150' key={index}>
+                                        <Card className='cursor-pointer w-full transition-all shadow-md rounded p-4 mx-2 duration-150' key={index}>
                                             <CardHeader className=''>
                                                 <CardTitle className='capitalize'>{card.name}</CardTitle>
-                                                <CardDescription>Card Description</CardDescription>
+                                                {/* <CardDescription>Card Description</CardDescription> */}
                                             </CardHeader>
                                             <CardContent className='my-4 p-2 flex justify-between items-center'>
                                                 <p className='bg-green-400 px-4 py-2 rounded-full text-white text-sm font-bold'>completed: {card.completed}</p>
