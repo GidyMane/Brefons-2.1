@@ -25,13 +25,16 @@ export default function RootLayout({
                     <div className="my-4 mx-2">
                         <BreadCrumb />
                     </div>
-                    {children}
+                    <div className="pb-10">
+                        {children}
+                    </div>
 
                 </div>
-                <div className="bottom-0 w-full bg-transparent backdrop-blur-sm">
+                <div className=" block bottom-0 fixed w-full bg-transparent backdrop-blur-sm">
                     <Footer />
 
                 </div>
+
             </ReduxUiProvider>
         </div>
     );
