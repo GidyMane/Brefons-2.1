@@ -9,7 +9,7 @@ export default function Home() {
         <BackgroundBeams className="w-full  bg-gray-700 h-full">
           <div className="flex flex-col gap-3">
             <div className="text-2xl text-white my-4">Coming soon</div>
-            <Link href={"dashboard"} className="bg-black text-white px-3 py-2 mt-4 rounded-md">go to dashboard</Link>
+            <Link href={"reports"} className="bg-black text-white px-3 py-2 mt-4 rounded-md">go to dashboard</Link>
           </div>
         </BackgroundBeams>
       </div>
