@@ -135,7 +135,7 @@ export default function SideBar() {
 
                                             {menu["home"].map((menuItem, index) => (
                                                 <li key={index}>
-                                                    <Link href={`/brefons.console${menuItem.link}`} className={`flex items-center p-2 text-gray-900 rounded-lg ${menuItem.link.slice(1) === pathname[1] && "bg-[#222F3F]"}  hover:bg-gray-100 dark:hover:bg-gray-700 group`} onClick={()=>dispatch(toggleSidebar())}>
+                                                    <Link href={`/brefons.console${menuItem.link}`} className={`flex items-center p-2 text-gray-900 rounded-lg ${menuItem.link.slice(1) === pathname[2] && "bg-[#222F3F] text-white"}  hover:bg-gray-100 dark:hover:bg-gray-700 group`} onClick={()=>dispatch(toggleSidebar())}>
                                                         <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                             <Avatar className='rounded-full'>
                                                                 <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
@@ -169,7 +169,7 @@ export default function SideBar() {
                                                             <span className="ms-2">{menuItem.name}</span>
                                                         </div>
                                                     ) : (
-                                                        <Link href={`/brefons.console${menuItem.link}`} className={`flex items-center p-2 ${menuItem.link.slice(1) === pathname[1] && "bg-[#222F3F"} text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group`}>
+                                                        <Link href={`/brefons.console${menuItem.link}`} className={`flex items-center p-2 ${menuItem.link.slice(1) === pathname[2] && "bg-[#222F3F] text-white"} text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group`}>
                                                             <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                                 <Avatar className='rounded-full'>
                                                                     <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
