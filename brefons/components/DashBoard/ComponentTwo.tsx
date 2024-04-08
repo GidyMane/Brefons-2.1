@@ -80,44 +80,44 @@ const ComponentTwo = () => {
 
 
     return (
-        <div className='p-4 w-full'>
-            <div className='grid md:grid-cols-3 gap-4 w-full'>
-                {indicators.map((column, columnIndex) => (
-                    <div className='col-span-1' key={columnIndex}>
-                        <Tabs defaultValue={column.indicators[0].title} className="w-[400px]">
-                            <TabsList>
-                                {column.indicators.map((item, index) => (
-                                    <TabsTrigger
-                                        key={index}
-                                        value={item.title}
-                                        className={`bg-gray-400 px-2 gap-2 mx-2 rounded-full ${activeTabs[columnIndex] === item.title ? 'bg-blue-500' : ''}`}
-                                        onClick={() => handleTabChange(columnIndex, item.title)}
-                                    >
-                                        {item.title}
-                                    </TabsTrigger>
-                                ))}
-                            </TabsList>
-                            {column.indicators.map((item, number) => (
-                                <TabsContent value={item.title} key={number} className='w-full flex items-center justify-start gap-3 flex-wrap'>
-                                    {item.cards.map((card, index) => (
-                                        <Card className='cursor-pointer transition-all duration-150' key={index}>
-                                            <CardHeader className='shadow-md rounded-md p-4'>
-                                                <CardTitle className='capitalize'>{card.name}</CardTitle>
-                                                <CardDescription>Card Description</CardDescription>
-                                            </CardHeader>
-                                            <CardContent className='my-4 p-2 flex justify-between items-center'>
-                                                <p>{card.completed}/<span>{card.total}</span></p>
-                                                <Button className='px-3 text-gray-400 py-2 flex justify-between items-center cursor-pointer'>View more</Button>
-                                            </CardContent>
-                                        </Card>
-                                    ))}
-                                </TabsContent>
+
+        <div className='grid md:grid-cols-2 gap-4 w-full'>
+            {indicators.map((column, columnIndex) => (
+                <div className='col-span-1' key={columnIndex}>
+                    <Tabs defaultValue={column.indicators[0].title} className="w-full">
+                        <TabsList>
+                            {column.indicators.map((item, index) => (
+                                <TabsTrigger
+                                    key={index}
+                                    value={item.title}
+                                    className={`bg-gray-400 px-2 gap-2 mx-2 rounded-full ${activeTabs[columnIndex] === item.title ? 'bg-blue-500' : ''}`}
+                                    onClick={() => handleTabChange(columnIndex, item.title)}
+                                >
+                                    {item.title}
+                                </TabsTrigger>
                             ))}
-                        </Tabs>
-                    </div>
-                ))}
-            </div>
+                        </TabsList>
+                        {column.indicators.map((item, number) => (
+                            <TabsContent value={item.title} key={number} className='w-full flex items-center justify-start gap-3 flex-wrap'>
+                                {item.cards.map((card, index) => (
+                                    <Card className='cursor-pointer shadow-md rounded-md p-4 transition-all duration-150' key={index}>
+                                        <CardHeader className=''>
+                                            <CardTitle className='capitalize'>{card.name}</CardTitle>
+                                            <CardDescription>Card Description</CardDescription>
+                                        </CardHeader>
+                                        <CardContent className='my-4 p-2 flex justify-between items-center'>
+                                            <p>{card.completed}/<span>{card.total}</span></p>
+                                            <Button className='px-3 text-gray-400 py-2 flex justify-between items-center cursor-pointer'>View more</Button>
+                                        </CardContent>
+                                    </Card>
+                                ))}
+                            </TabsContent>
+                        ))}
+                    </Tabs>
+                </div>
+            ))}
         </div>
+
     )
 }
 

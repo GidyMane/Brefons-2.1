@@ -3,9 +3,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div className='w-full'>
       {/* tabs */}
-      <div className='mt-4 px-2'>
+      <div className='mt-4 scroll-pb-16 w-full'>
         <InfoSection />
 
       </div>

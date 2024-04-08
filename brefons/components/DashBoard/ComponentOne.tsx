@@ -147,11 +147,10 @@ const ComponentOne = () => {
 
 
     return (
-        <div className='p-4 w-full'>
-            <div className='grid md:grid-cols-3 gap-4 w-full'>
+            <div className='grid md:grid-cols-1 gap-4 w-full '>
                 {indicators.map((column, columnIndex) => (
                     <div className='col-span-1' key={columnIndex}>
-                        <Tabs defaultValue={column.indicators[0].title} className="w-[400px]">
+                        <Tabs defaultValue={column.indicators[0].title} className="w-full">
                             <TabsList>
                                 {column.indicators.map((item, index) => (
                                     <TabsTrigger
@@ -165,10 +164,10 @@ const ComponentOne = () => {
                                 ))}
                             </TabsList>
                             {column.indicators.map((item, number) => (
-                                <TabsContent value={item.title} key={number} className='w-full flex items-center justify-start gap-3 flex-wrap'>
+                                <TabsContent value={item.title} key={number} className='grid md:grid-cols-2 gap-2'>
                                     {item.cards.map((card, index) => (
-                                        <Card className='cursor-pointer transition-all duration-150' key={index}>
-                                            <CardHeader className='shadow-md rounded-md p-4'>
+                                        <Card className='cursor-pointer col-span-1 transition-all shadow-md rounded-md p-4 mx-2 duration-150' key={index}>
+                                            <CardHeader className=''>
                                                 <CardTitle className='capitalize'>{card.name}</CardTitle>
                                                 <CardDescription>Card Description</CardDescription>
                                             </CardHeader>
@@ -182,9 +181,10 @@ const ComponentOne = () => {
                             ))}
                         </Tabs>
                     </div>
+
                 ))}
             </div>
-        </div>
+        
     )
 }
 

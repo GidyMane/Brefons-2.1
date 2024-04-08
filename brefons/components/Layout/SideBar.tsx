@@ -101,12 +101,13 @@ export default function SideBar() {
 
 
     return (
-        <div>
+        <div className=''>
             <SwipeableDrawer
                 anchor={"left"}
                 open={menuIsOpen}
                 onClose={toggleDrawer()}
                 onOpen={toggleDrawer()}
+                className=''
             >
                 <div className='w-full h-full  flex flex-col items-start rounded-md p-4 relative'>
                     <div className='absolute top-6 right-0 px-2 cursor-pointer transition-all duration-150' >
@@ -124,7 +125,7 @@ export default function SideBar() {
 
                                         {menu["home"].map((menuItem, index) => (
                                             <li key={index}>
-                                                <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                                     <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                         <Avatar className='rounded-full'>
                                                             <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
@@ -158,7 +159,7 @@ export default function SideBar() {
                                                         <span className="ms-2">{menuItem.name}</span>
                                                     </div>
                                                 ) : (
-                                                    <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                    <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                                         <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                             <Avatar className='rounded-full'>
                                                                 <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
@@ -183,7 +184,7 @@ export default function SideBar() {
 
                     </div>
 
-                    <div className='mt-10 rounded-full bottom-0 fixed flex items-center gap-4 justify-start outline-1'>
+                    <div className='mt-10  my-6 rounded-full bottom-0 fixed flex items-center gap-4 justify-start outline-1'>
                         <Avatar className='rounded-full flex items-center justify-center md:h-10 md:w-10 '>
                             <AvatarImage src="https://github.com/shadcn.png" className='rounded-full text-center flex justify-center items-center' />
                             <AvatarFallback className='flex items-center justify-center'>User</AvatarFallback>

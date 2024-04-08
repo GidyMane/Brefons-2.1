@@ -15,7 +15,7 @@ const NavBar = () => {
           <HamBurgerButton />
           <Link href="https://flowbite.com/" className="flex items-center mb-0 space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Brefons</span>
+            <span className="self-center text-2xl hidden md:flex font-semibold whitespace-nowrap dark:text-white">Brefons</span>
           </Link>        
         </div>
         <div className="flex flex-1 items-center justify-end gap-2 min-[375px]:gap-4 md:gap-6">
