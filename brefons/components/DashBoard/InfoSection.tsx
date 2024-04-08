@@ -20,6 +20,7 @@ const tabs = [
         value: "component 3",
         content: <ComponentThree/>
     }
+    
 ]
 
 const InfoSection = () => {
