@@ -87,7 +87,7 @@ const ComponentThree = () => {
                                     <TabsTrigger
                                         key={index}
                                         value={item.title}
-                                        className={`bg-gray-400 px-2 gap-2 mx-2 rounded-full ${activeTabs[columnIndex] === item.title ? 'bg-blue-500' : ''}`}
+                                        className={`bg-gray-400  px-2 gap-2 mx-2 rounded-full ${activeTabs[columnIndex] === item.title ? 'bg-[#222F3F] text-white' : ''}`}
                                         onClick={() => handleTabChange(columnIndex, item.title)}
                                     >
                                         {item.title}
