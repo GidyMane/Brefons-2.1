@@ -169,7 +169,7 @@ const ComponentOne = () => {
                                         <Card className='cursor-pointer relative w-full h-[200px] transition-all shadow-md rounded p-4 mx-2 duration-150' key={index}>
                                             <CardHeader className='mb-8'>
                                                 <CardTitle className='capitalize text-md'>{card.name}</CardTitle>
-                                                <CardDescription>Card Description</CardDescription>
+                                                {/* <CardDescription>Card Description</CardDescription> */}
                                             </CardHeader>
                                             <CardContent className='bottom-0 p-2 flex justify-between items-center'>
                                                 <p className='bg-green-400 px-4 py-2 rounded-full text-white text-sm font-bold'>completed: {card.completed}</p>
