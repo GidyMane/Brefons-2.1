@@ -26,11 +26,6 @@ const tabs = [
         value: "component 4",
         content: <ComponentFour/>
     }
-    // {
-    //     title: "comp4",
-    //     Value: "component 4",
-    //     content: <ComponentFour/>
-    // }
     
 ]
 
