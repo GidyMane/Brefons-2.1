@@ -97,9 +97,9 @@ const ComponentThree = () => {
                             {column.indicators.map((item, number) => (
                                 <TabsContent value={item.title} key={number} className='w-full flex items-center justify-start gap-3 flex-wrap'>
                                     {item.cards.map((card, index) => (
-                                        <Card className='cursor-pointer shadow-md rounded p-4 transition-all duration-150' key={index}>
-                                            <CardHeader className=''>
-                                                <CardTitle className='capitalize'>{card.name}</CardTitle>
+                                        <Card className='cursor-pointer relative w-full h-[200px] transition-all shadow-md rounded p-4 mx-2 duration-150' key={index}>
+                                            <CardHeader className='my-8'>
+                                                <CardTitle className='capitalize text-md'>{card.name}</CardTitle>
                                                 {/* <CardDescription>Card Description</CardDescription> */}
                                             </CardHeader>
                                             <CardContent className='my-4 p-2 flex justify-between items-center'>
