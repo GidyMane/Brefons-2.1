@@ -159,7 +159,7 @@ export default function SideBar() {
                                             {menu["Project Planning"].map((menuItem, index) => (
                                                 <li key={index}>
                                                     {menuItem.name === "Logout" ? (
-                                                        <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                        <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                                             <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                                 <Avatar className='rounded-full'>
                                                                     <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
