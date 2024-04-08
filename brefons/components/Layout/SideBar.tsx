@@ -45,7 +45,7 @@ const menu = {
             gif: "/project.png",
             fallback: "projects",
             name: "Projects",
-            link: "projects"
+            link: "/projects"
         },
         {
             gif: "/target.gif",
