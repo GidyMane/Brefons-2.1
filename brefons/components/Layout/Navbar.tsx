@@ -9,13 +9,13 @@ import Link from 'next/link';
 const NavBar = () => {
 
   return (
-    <div className='w-full border-b fixed bg-transparent backdrop-blur-sm z-40'>
-      <div className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-8 flex items-center justify-between py-4">
+    <div className='w-full border-b fixed bg-[#222F3F] z-40'>
+      <div className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-10 xl:px-8 flex items-center justify-between py-4">
         <div className="flex flex-1 items-center justify-start gap-4 min-[375px]:gap-4 lg:gap-4">
           <HamBurgerButton />
           <Link href="https://flowbite.com/" className="flex items-center mb-0 space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-            <span className="self-center text-2xl hidden md:flex font-semibold whitespace-nowrap dark:text-white">Brefons</span>
+            <span className="self-center text-2xl hidden md:flex font-semibold whitespace-nowrap text-white">Brefons</span>
           </Link>        
         </div>
         <div className="flex flex-1 items-center justify-end gap-2 min-[375px]:gap-4 md:gap-6">

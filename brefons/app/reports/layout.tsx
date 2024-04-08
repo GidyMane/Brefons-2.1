@@ -17,11 +17,11 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className="h-[100vh] rounded-md">
+        <div className="h-[100vh]  rounded-md">
             <ReduxUiProvider>
                 <SideBar />
                 <Navbar />
-                <div className="w-full py-20 ">
+                <div className="w-full py-20 z-10  ">
                     <div className="my-4 mx-2">
                         <BreadCrumb />
                     </div>

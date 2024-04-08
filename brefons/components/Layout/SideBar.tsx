@@ -109,56 +109,27 @@ export default function SideBar() {
                 onOpen={toggleDrawer()}
                 className=''
             >
-                <div className='w-full h-full  flex flex-col items-start rounded-md p-4 relative'>
-                    <div className='absolute top-6 right-0 px-2 cursor-pointer transition-all duration-150' >
-                        <svg width="20" onClick={()=>dispatch(toggleSidebar())} height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg>
+                <div className='w-full flex flex-col'>
+                    <div className='w-full bg-[#222F3F] flex gap-4 justify-between items-center px-3 py-2'>
+                        <h2 className="text-2xl font-bold  text-white ">BREFONS</h2>
+                        <div className='text-white px-2 cursor-pointer transition-all duration-150' >
+                            <svg width="20" onClick={() => dispatch(toggleSidebar())} height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg>
+                        </div>
                     </div>
-                    <div>
-                        <h2 className="text-2xl font-bold mb-4 text-blue-500">BREFONS</h2>
+                    <div className='w-full h-full flex flex-col items-start rounded-md p-4 relative'>
 
 
-                        <aside id="default-sidebar" className="top-0 left-0 z-40 w-full h-full " aria-label="Sidebar">
-                            <div className="h-full w-full">
-                                <ul className="space-y-2 font-medium mt-8">
-                                    <div className='my-4'>
+                        <div className='w-full'>
 
 
-                                        {menu["home"].map((menuItem, index) => (
-                                            <li key={index}>
-                                                <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                                    <div className='h-5 w-5 rounded-full mx-2 outline-1'>
-                                                        <Avatar className='rounded-full'>
-                                                            <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
-                                                            <AvatarFallback>{menuItem.fallback}</AvatarFallback>
-                                                        </Avatar>
-                                                    </div>
-                                                    <span className="ms-2">{menuItem.name}</span>
-                                                </Link>
-                                            </li>
-                                        ))}
-
-                                    </div>
+                            <aside id="default-sidebar" className="top-0 left-0 z-40 w-full h-full " aria-label="Sidebar">
+                                <div className="h-full w-full">
+                                    <ul className="space-y-2 font-medium mt-8">
+                                        <div className='my-4'>
 
 
-
-                                    <li className=''>
-                                        <h3 className="text-lg font-bold my-6">Project Planning</h3>
-                                    </li>
-
-                                    <div className='my-4'>
-                                        {menu["Project Planning"].map((menuItem, index) => (
-                                            <li key={index}>
-                                                {menuItem.name === "logout" ? (
-                                                    <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                                        <div className='h-5 w-5 rounded-full mx-2 outline-1'>
-                                                            <Avatar className='rounded-full'>
-                                                                <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
-                                                                <AvatarFallback>{menuItem.fallback}</AvatarFallback>
-                                                            </Avatar>
-                                                        </div>
-                                                        <span className="ms-2">{menuItem.name}</span>
-                                                    </div>
-                                                ) : (
+                                            {menu["home"].map((menuItem, index) => (
+                                                <li key={index}>
                                                     <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                                         <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                             <Avatar className='rounded-full'>
@@ -168,33 +139,68 @@ export default function SideBar() {
                                                         </div>
                                                         <span className="ms-2">{menuItem.name}</span>
                                                     </Link>
-                                                )}
+                                                </li>
+                                            ))}
 
-                                            </li>
-                                        ))}
-
-                                    </div>
+                                        </div>
 
 
-                                </ul>
+
+                                        <li className=''>
+                                            <h3 className="text-lg font-bold my-6">Project Planning</h3>
+                                        </li>
+
+                                        <div className='my-4'>
+                                            {menu["Project Planning"].map((menuItem, index) => (
+                                                <li key={index}>
+                                                    {menuItem.name === "logout" ? (
+                                                        <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                            <div className='h-5 w-5 rounded-full mx-2 outline-1'>
+                                                                <Avatar className='rounded-full'>
+                                                                    <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
+                                                                    <AvatarFallback>{menuItem.fallback}</AvatarFallback>
+                                                                </Avatar>
+                                                            </div>
+                                                            <span className="ms-2">{menuItem.name}</span>
+                                                        </div>
+                                                    ) : (
+                                                        <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                            <div className='h-5 w-5 rounded-full mx-2 outline-1'>
+                                                                <Avatar className='rounded-full'>
+                                                                    <AvatarImage src={menuItem.gif} className=' h-5 w-5' />
+                                                                    <AvatarFallback>{menuItem.fallback}</AvatarFallback>
+                                                                </Avatar>
+                                                            </div>
+                                                            <span className="ms-2">{menuItem.name}</span>
+                                                        </Link>
+                                                    )}
+
+                                                </li>
+                                            ))}
+
+                                        </div>
 
 
-                            </div>
-                        </aside>
+                                    </ul>
 
-                    </div>
 
-                    <div className='mt-10  my-6 rounded-full bottom-0 fixed flex items-center gap-4 justify-start outline-1'>
-                        <Avatar className='rounded-full flex items-center justify-center md:h-10 md:w-10 '>
-                            <AvatarImage src="https://github.com/shadcn.png" className='rounded-full text-center flex justify-center items-center' />
-                            <AvatarFallback className='flex items-center justify-center'>User</AvatarFallback>
-                        </Avatar>
-                        <div>
-                            <p>user@gmail.com</p>
+                                </div>
+                            </aside>
+
                         </div>
+
+                        <div className='mt-10  my-6 rounded-full bottom-0 fixed flex items-center gap-4 justify-start outline-1'>
+                            <Avatar className='rounded-full flex items-center justify-center md:h-10 md:w-10 '>
+                                <AvatarImage src="https://github.com/shadcn.png" className='rounded-full text-center flex justify-center items-center' />
+                                <AvatarFallback className='flex items-center justify-center'>User</AvatarFallback>
+                            </Avatar>
+                            <div>
+                                <p>user@gmail.com</p>
+                            </div>
+                        </div>
+
+
                     </div>
-
-
                 </div>
             </SwipeableDrawer>
         </div>

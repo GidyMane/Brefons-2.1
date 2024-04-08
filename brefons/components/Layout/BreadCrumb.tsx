@@ -26,7 +26,7 @@ const BreadCrumb = () => {
                                 <BreadcrumbItem key={path}>
                                     <BreadcrumbLink href={path} className='text-gray-600 capitalize p-4'>{path}</BreadcrumbLink>
                                 </BreadcrumbItem>
-                                <BreadcrumbSeparator />
+                                <BreadcrumbSeparator className='dark:text-gray-900' />
                             </>
                         )}
                     </React.Fragment>

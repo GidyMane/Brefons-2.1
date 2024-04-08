@@ -166,9 +166,9 @@ const ComponentOne = () => {
                             {column.indicators.map((item, number) => (
                                 <TabsContent value={item.title} key={number} className='grid md:grid-cols-3 gap-2'>
                                     {item.cards.map((card, index) => (
-                                        <Card className='cursor-pointer relative w-full h-[200px] transition-all shadow-md rounded p-4 mx-2 duration-150' key={index}>
+                                        <Card className='bg-white cursor-pointer relative w-full h-[200px] transition-all shadow-md rounded p-4 mx-2 duration-150' key={index}>
                                             <CardHeader className='mb-8'>
-                                                <CardTitle className='capitalize text-md'>{card.name}</CardTitle>
+                                                <CardTitle className='capitalize text-md dark:text-gray-900'>{card.name}</CardTitle>
                                                 {/* <CardDescription>Card Description</CardDescription> */}
                                             </CardHeader>
                                             <CardContent className='bottom-0 p-2 flex justify-between items-center'>
