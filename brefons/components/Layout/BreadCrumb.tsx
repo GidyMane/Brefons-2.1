@@ -21,7 +21,14 @@ const BreadCrumb = () => {
             <BreadcrumbList>
                 {pathname.map((path: string, index: number) => (
                     <React.Fragment key={index}>
-                        {path.length > 0 && (
+                        {path === "brefons.console" ?  (
+                            <>
+                                <BreadcrumbItem key={path}>
+                                    <BreadcrumbLink href={"/brefons.console"} className='text-gray-600 capitalize p-4'>{path}</BreadcrumbLink>
+                                </BreadcrumbItem>
+                                <BreadcrumbSeparator className='dark:text-gray-900' />
+                            </>
+                        ):(
                             <>
                                 <BreadcrumbItem key={path}>
                                     <BreadcrumbLink href={path} className='text-gray-600 capitalize p-4'>{path}</BreadcrumbLink>

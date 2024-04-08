@@ -8,6 +8,7 @@ import { RootState } from '@/Redux/Store';
 import { toggleSidebar } from '@/Redux/Slices/MenuSlice';
 import { Avatar, AvatarFallback, AvatarImage } from '@/shadcn/ui/avatar';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
@@ -81,6 +82,10 @@ export default function SideBar() {
     const menuIsOpen = useSelector((state: RootState) => state.toggleMenu.isOpen)
     const dispatch = useDispatch()
 
+    // retrieve pathname 
+    const pathname = usePathname().split("/")
+    console.log(pathname)
+
     const toggleDrawer =
         () =>
             (event: React.KeyboardEvent | React.MouseEvent) => {
@@ -130,7 +135,7 @@ export default function SideBar() {
 
                                             {menu["home"].map((menuItem, index) => (
                                                 <li key={index}>
-                                                    <Link href={menuItem.link} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                                    <Link href={`${pathname[1]}/${menuItem.link}`} className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-700 group" onClick={()=>dispatch(toggleSidebar())}>
                                                         <div className='h-5 w-5 rounded-full mx-2 outline-1'>
                                                             <Avatar className='rounded-full'>
                                                                 <AvatarImage src={menuItem.gif} className=' h-5 w-5' />

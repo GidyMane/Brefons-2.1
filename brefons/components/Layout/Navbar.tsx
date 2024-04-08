@@ -24,7 +24,7 @@ const NavBar = () => {
           <div className='md:h-10 md:w-10 rounded-full mx-2 outline-1'>
             <Avatar className='rounded-full'>
               <AvatarImage src="/maps.png" className='rounded-full h-8 w-8' />
-              <AvatarFallback>maps</AvatarFallback>
+              <AvatarFallback className="text-white">maps</AvatarFallback>
             </Avatar>
           </div>
           <div className='md:h-10 md:w-10 rounded-full outline-1'>
