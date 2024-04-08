@@ -30,7 +30,7 @@ const NavBar = () => {
           <div className='md:h-10 md:w-10 rounded-full outline-1'>
             <Avatar className='rounded-full'>
               <AvatarImage src="https://github.com/shadcn.png" className='rounded-full h-8 w-8' />
-              <AvatarFallback>User</AvatarFallback>
+              <AvatarFallback className='text-white'>User</AvatarFallback>
             </Avatar>
           </div>
 

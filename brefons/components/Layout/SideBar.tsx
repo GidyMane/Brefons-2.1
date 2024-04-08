@@ -18,25 +18,25 @@ const menu = {
             gif: "reports.gif",
             fallback: "reports",
             name: "Reports",
-            link: "/reports"
+            link: "brefons.console/reports"
         },
         {
             gif: "technical.gif",
             fallback: "technical",
             name: "Technical Parameters",
-            link: "/technical"
+            link: "brefons.console/technical"
         },
         {
             gif: "activity.gif",
             fallback: "activity",
             name: "activities",
-            link: "/activities"
+            link: "brefons.console/activities"
         },
         {
             gif: "parameters.gif",
             fallback: "operational",
             name: "Operational Parameters",
-            link: "/operationalparameters"
+            link: "brefons.console/operationalparameters"
         },
     ],
     "Project Planning": [
@@ -44,19 +44,19 @@ const menu = {
             gif: "project.png",
             fallback: "projects",
             name: "Projects",
-            link: "/projects"
+            link: "brefons.console/projects"
         },
         {
             gif: "target.gif",
             fallback: "targets",
             name: "Target",
-            link: "/targets"
+            link: "brefons.console/targets"
         },
         {
             gif: "settings.gif",
             fallback: "settings",
             name: "Settings",
-            link: "/settings"
+            link: "brefons.console/settings"
         },
         {
             gif: "logout.gif",
