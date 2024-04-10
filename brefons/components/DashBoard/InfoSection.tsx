@@ -7,7 +7,7 @@ import ComponentFour from './ComponentFour'
 
 const tabs = [
     {
-        title: "Comp1",
+        title: "Component 1: Strengthening the resilience of Agro-Pastoral production systems",
         value: "irrigation",
         content: <ComponentOne/>
     },

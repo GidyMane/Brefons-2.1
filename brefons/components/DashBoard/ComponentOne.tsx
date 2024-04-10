@@ -16,10 +16,10 @@ import { Button } from '@/shadcn/ui/button'
 
 const indicators = [
     {
-        title: "1.1",
+        title: "Agricultural productivity (Crops and Livestock)",
         indicators: [
             {
-                title: "1.1.1",
+                title: "CROPS",
                 cards: [
                     {
                         name: "Irrigation Schemes",
@@ -54,7 +54,7 @@ const indicators = [
                 ]
             },
             {
-                title: "1.1.2",
+                title: "LIVESTOCK",
                 cards: [
                     {
                         name: "Irrigation",
