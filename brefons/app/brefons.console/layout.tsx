@@ -25,7 +25,7 @@ export default function RootLayout({
                     <div className="my-4 mx-2">
                         <BreadCrumb />
                     </div>
-                    <div className="pb-10 container">
+                    <div className="pb-10 md:container px-2 md:mx-0">
                         {children}
                     </div>
 

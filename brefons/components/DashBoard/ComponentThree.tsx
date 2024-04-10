@@ -12,76 +12,21 @@ import {
 import { SkeletonCard } from './Skeleton'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shadcn/ui/tabs"
 import { Button } from '@/shadcn/ui/button'
-import { HierarchicalCard } from './CardDetail/HierachialCard'
+import HierarchicalCard from './CardDetail/HierachialCard'
 
 
 
-const indicators = [
-    {
-        title: "3.1",
-        indicators: [
-            {
-                title: "3.1.1",
-                cards: [
-                    {
-                        name: "Climate products and services for agriculture and livestock developed",
-                        total: 10,
-                        completed: 4
-                    }
-                ]
-            },
-            {
-                title: "3.1.2",
-                cards: [
-                    {
-                        name: "Regional Information databases and online interactive established to report state of resilience in the region",
-                        total: 1,
-                        completed: 1
-                    }
-                ]
-            }
-        ]
-    },
 
-    {
-        title: "3.2",
-        indicators: [
-            {
-                title: "3.2.1",
-                cards: [
-                    {
-                        name: "Uptake of climate risk financing and insurance solutions",
-                        total: 30,
-                        completed: 4
-                    }
-
-                ]
-            }
-        ]
-    }
-
-]
 
 const ComponentThree = () => {
 
-    // Assuming indicators is defined somewhere
-    const defaultActiveTabs = indicators.map(column => column.indicators.length > 0 ? column.indicators[0].title : "");
-
-    const [activeTabs, setActiveTabs] = useState(defaultActiveTabs);
-
-    const handleTabChange = (columnIndex: number, value: string) => {
-        setActiveTabs(prevTabs => {
-            const newTabs = [...prevTabs];
-            newTabs[columnIndex] = value;
-            return newTabs;
-        });
-    };
-
+    
+    const data = transformCardData(CardData);
 
     return (
 
         <div className='grid md:grid-cols-1 gap-4 w-full bg-white shadow rounded'>
-            <HierarchicalCard data={CardData} />
+            <HierarchicalCard data={data} />
 
         </div>
 
@@ -89,3 +34,33 @@ const ComponentThree = () => {
 }
 
 export default ComponentThree
+
+
+
+// Function to transform CardData into the structure expected by HierarchicalCardProps
+const transformCardData = (cardData: any): any => {
+    // Implement your transformation logic here
+    // Example transformation:
+    return {
+        id: cardData.id,
+        title: cardData.title,
+        members: cardData.members.map(transformMember),
+    };
+};
+
+const transformMember = (memberData: any): any => {
+    // Implement your transformation logic here for each member
+    // Example transformation:
+    return {
+        id: memberData.id,
+        title: memberData.title,
+        unit: memberData.unit,
+        baseline: memberData.baseline,
+        midtarget: memberData.midtarget,
+        endtarget: memberData.endtarget,
+        frequency: memberData.frequency,
+        mov: memberData.mov,
+        agency: memberData.agency,
+        members: memberData.members?.map(transformMember),
+    };
+};

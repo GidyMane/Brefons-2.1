@@ -1,76 +1,44 @@
-"use client"
-import React, { useState } from 'react'
-import CardData from "./compfour.json"
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/shadcn/ui/card"
-import { SkeletonCard } from './Skeleton'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shadcn/ui/tabs"
-import { Button } from '@/shadcn/ui/button'
-import { HierarchicalCard } from './CardDetail/HierachialCard'
-
-
-
-const indicators = [
-    {
-        title: "4.1",
-        indicators: [
-            {
-                title: "4.1.1",
-                cards: [
-                    {
-                        name: "Gender action plans implemented",
-                        total: 1,
-                        completed: 1
-                    }
-                ]
-            },
-            {
-                title: "4.1.2",
-                cards: [
-                    {
-                        name: "Baseline Surveys Done",
-                        total: 1,
-                        completed: 1
-                    }
-
-                ]
-            }
-
-        ]
-    }
-
-
-]
+import React from 'react';
+import CardData from './compfour.json';
+import HierarchicalCard from './CardDetail/HierachialCard';
 
 const ComponentFour = () => {
-
-    // Assuming indicators is defined somewhere
-    const defaultActiveTabs = indicators.map(column => column.indicators.length > 0 ? column.indicators[0].title : "");
-
-    const [activeTabs, setActiveTabs] = useState(defaultActiveTabs);
-
-    const handleTabChange = (columnIndex: number, value: string) => {
-        setActiveTabs(prevTabs => {
-            const newTabs = [...prevTabs];
-            newTabs[columnIndex] = value;
-            return newTabs;
-        });
-    };
-
+    // Transform CardData to match the structure of HierarchicalCardProps
+    const data = transformCardData(CardData);
 
     return (
         <div className='grid md:grid-cols-1 gap-4 w-full bg-white rounded shadow'>
-            <HierarchicalCard data={CardData} />
-
+            <HierarchicalCard data={data} />
         </div>
+    );
+};
 
-    )
-}
+// Function to transform CardData into the structure expected by HierarchicalCardProps
+const transformCardData = (cardData: any): any => {
+    // Implement your transformation logic here
+    // Example transformation:
+    return {
+        id: cardData.id,
+        title: cardData.title,
+        members: cardData.members.map(transformMember),
+    };
+};
 
-export default ComponentFour
+const transformMember = (memberData: any): any => {
+    // Implement your transformation logic here for each member
+    // Example transformation:
+    return {
+        id: memberData.id,
+        title: memberData.title,
+        unit: memberData.unit,
+        baseline: memberData.baseline,
+        midtarget: memberData.midtarget,
+        endtarget: memberData.endtarget,
+        frequency: memberData.frequency,
+        mov: memberData.mov,
+        agency: memberData.agency,
+        members: memberData.members?.map(transformMember),
+    };
+};
+
+export default ComponentFour;
