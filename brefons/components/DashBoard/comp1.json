@@ -1,336 +1,518 @@
-{
-    "Component 1: Strengthening the resilience of Agro-Pastoral production systems": {
-        "Indicators": {
-            "Unit of Measurement": "Crops: tons/ha, Livestock: carrying capacity (ha/LU)",
-            "Baseline": "Baseline survey in 2024",
-            "Mid-Term Target": "Increase by 30%",
-            "End Target": "Monthly, Quartely & Annually",
-            "Frequency": "Program Progress Reports: Quarterly, Midterm, Annual",
-            "MOV": "NPCU, County Team, MOALF & KNBS, Consultants",
+ {
             "OUTCOME STATEMENT 1": {
-                "Increased Resilience of Agropastoral Production Systems": {
-                    "OUTCOME INDICATOR 1.1": {
-                        "Agricultural productivity (crops and livestock)": {
-                            "Volume of Agricultural production (crops and livestock)": {
-                                "Unit of Measurement": "Crops: tons/ha, Livestock: carrying capacity (ha/LU)",
-                                "Baseline": "Baseline survey in 2024",
-                                "Mid-Term Target": "",
-                                "End Target": "Increase by 30%",
-                                "Frequency": "Monthly, Quartely & Annually",
-                                "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants",
-                                "OUTCOME INDICATOR 1.1a": {
-                                    "Agricultural productivity (Crop)": {
-                                        "a. Crop productivity": {
-                                            "Maize Productivity": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Banana productivity": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Cow pea Productivity": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Sorghum Productivity": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Water Melon productivity": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Tomato productivity": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Fodder productivity": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            }
-                                        }
-                                    }
-                                },
-                                "OUTCOME INDICATOR 1.1b": {
-                                    "Agricultural productivity (Livestock)": {
-                                        "b. Livestock Productivity": {
-                                            "Indigenous chicken meat": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Milk (Cow )": {
-                                                "Unit of Measurement": "Litres/year",
-                                                "Baseline": "Baseline survey in Feb-March-2025",
-                                                "Mid-Term Target": "",
-                                                "End Target": ""
-                                            },
-                                            "Milk (Goat )": {
-                                                "Unit of Measurement": "Litres/year",
-                                                "Baseline": "Baseline survey in Feb-March-2026",
-                                                "Mid-Term Target": "",
-                                                "End Target": ""
-                                            },
-                                            "Milk (Camel)": {
-                                                "Unit of Measurement": "Litres/year",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Camel Meat": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2025",
-                                                "Mid-Term Target": "",
-                                                "End Target": ""
-                                            },
-                                            "Goat meat (chevon)": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Honey": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            },
-                                            "Beef": {
-                                                "Unit of Measurement": "Tons/Ha",
-                                                "Baseline": "Baseline survey in Feb-March-2024",
-                                                "Mid-Term Target": "",
-                                                "End Target": "Increase by 30%"
-                                            }
-                                        }
-                                    }
-                                },
-                                "OUTPUT INDICATOR 1.1.1": {
-                                    "Water mobilisation infrastructure sensitive to gender (small earth dams, boreholes, covered water pans, shallow wells, water distribution systems) constructed or rehabilitated": {
-                                        "Water infrastructure developed": {
-                                            "Unit of Measurement": "Number",
-                                            "Baseline": "27",
-                                            "Mid-Term Target": "14",
-                                            "End Target": "28",
-                                            "Frequency": "Monthly, Quartely & Annually",
-                                            "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                            "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants",
-                                            "Water pans/Earthdams developed": {
-                                                "Unit of Measurement": "Number",
-                                                "Baseline": "27",
-                                                "Mid-Term Target": "14",
-                                                "End Target": "28"
-                                            },
-                                            "Boreholes developed": {
-                                                "Unit of Measurement": "Number",
-                                                "Baseline": "110",
-                                                "Mid-Term Target": "14",
-                                                "End Target": "28"
-                                            },
-                                            "Shallow Wells developed": {
-                                                "Unit of Measurement": "Number",
-                                                "Baseline": "10",
-                                                "Mid-Term Target": "14",
-                                                "End Target": "28"
-                                            },
-                                            "Sub Surface Dams developed": {
-                                                "Unit of Measurement": "Number",
-                                                "Baseline": "5",
-                                                "Mid-Term Target": "14",
-                                                "End Target": "28"
-                                            }
-                                        }
-                                    }
-                                },
-                                "OUTPUT INDICATOR 1.1.2": {
-                                    "Irrigation Development/rehabilitation": {
-                                        "Irrigated land developed": {
-                                            "Unit of Measurement": "Ha",
-                                            "Baseline": "1070",
-                                            "Mid-Term Target": "400",
-                                            "End Target": "800",
-                                            "Frequency": "Monthly, Quartely & Annually",
-                                            "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                            "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
-                                        }
-                                    }
-                                },
-                                "OUTPUT INDICATOR 1.1.3": {
-                                    "Rangeland/Pasture development/rehabilitation": {
-                                        "Rangeland/pasture rehabilitated": {
-                                            "Unit of Measurement": "Ha",
-                                            "Baseline": "910",
-                                            "Mid-Term Target": "175",
-                                            "End Target": "350",
-                                            "Frequency": "Monthly, Quartely & Annually",
-                                            "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                            "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
-                                        }
-                                    }
-                                },
-                                "OUTPUT INDICATOR 1.1.4": {
-                                    "Animal feed, health, and market access infrastructure constructed/rehabilitated": {
-                                        "Health and Market Access Infrastructure Constructed/Rehabilitated": {
-                                            "Unit of Measurement": "Number",
-                                            "Baseline": "",
-                                            "Mid-Term Target": "11",
-                                            "End Target": "21",
-                                            "Frequency": "Monthly, Quartely & Annually",
-                                            "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                            "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants",
-                                            "Hay stores/sheds constructed": {
-                                                "Unit of Measurement": "Number",
-                                                "Baseline": "25",
-                                                "Mid-Term Target": "11",
-                                                "End Target": "21"
-                                            },
-                                            "Veterinary Laboratories Equipped": {
-                                                "Unit of Measurement": "Number",
-                                                "Baseline": "6",
-                                                "Mid-Term Target": "4",
-                                                "End Target": "7"
-                                            },
-                                            "Livestock Sale Yards/markets Constructed": {
-                                                "Unit of Measurement": "Number",
-                                                "Baseline": "25",
-                                                "Mid-Term Target": "11",
-                                                "End Target": "21"
-                                            },
-                                            "Access roads constructed": {
-                                                "Unit of Measurement": "Kms",
-                                                "Baseline": "",
-                                                "Mid-Term Target": "",
-                                                "End Target": ""
-                                            },
-                                            "Access roads rehabilitated": {
-                                                "Unit of Measurement": "Kms",
-                                                "Baseline": "219",
-                                                "Mid-Term Target": "50",
-                                                "End Target": "100"
-                                            }
-                                        }
-                                    }
-                                },
-                                "OUTPUT INDICATOR 1.1.5": {
-                                    "IGAD regional clusters with operationalised cross-border MOUs to better control transboundary animal diseases and zoonoses": {
-                                        "Unit of Measurement": "",
-                                        "Baseline": "",
-                                        "Mid-Term Target": "",
-                                        "End Target": "",
-                                        "Frequency": "Monthly, Quartely & Annually",
-                                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "OUTCOME INDICATOR 1.2": {
-                        "People benefitting from improved access to cross-border, pastoral natural resources (pasture, water, and transhumance routes, structures)": {
-                            "Unit of Measurement": "",
-                            "Baseline": "Baseline survey in Feb-March-2024",
-                            "Mid-Term Target": "",
-                            "End Target": "Monthly, Quartely & Annually",
-                            "Frequency": "Program Progress Reports: Quarterly, Midterm, Annual",
-                            "MOV": "NPCU, County Team, MOALF & KNBS, Consultants",
-                            "Number of People benefiting from cross border/transboundary water structures e.g Boreholes, water pans , irrigation schemes": {
-                                "Unit of Measurement": "Number",
-                                "Baseline": "Baseline survey in Feb-March-2024",
-                                "Mid-Term Target": "",
-                                "End Target": ""
-                            },
-                            "Number of People benefiting from cross border/transboundary commercial pastures plot": {
-                                "Unit of Measurement": "Number",
-                                "Baseline": "Baseline survey in Feb-March-2024",
-                                "Mid-Term Target": "",
-                                "End Target": ""
-                            },
-                            "Number of People benefiting from cross border/transboundary Livestock Markets": {
-                                "Unit of Measurement": "Number",
-                                "Baseline": "Baseline survey in Feb-March-2024",
-                                "Mid-Term Target": "",
-                                "End Target": ""
-                            },
-                            "Number of People benefiting from cross border/transboundary water structures": {
-                                "Unit of Measurement": "Number",
-                                "Baseline": "Baseline survey in Feb-March-2024",
-                                "Mid-Term Target": "",
-                                "End Target": ""
-                            },
-                            "Number of People benefiting from cross border/transhumnce routes": {
-                                "Unit of Measurement": "Number",
-                                "Baseline": "Baseline survey in Feb-March-2024",
-                                "Mid-Term Target": "",
-                                "End Target": ""
-                            }
-                        }
-                    },
-                    "OUTPUT STATEMENT 1.2": {
-                        "Sustainable Management of Agropastoral Lands Promoted": {
-                            "Unit of Measurement": "",
-                            "Baseline": "",
-                            "Mid-Term Target": "",
-                            "End Target": "",
-                            "Frequency": "",
-                            "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                            "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants",
-                            "OUTPUT INDICATOR 1.2.1": {
-                                "Pastoral and Agropastoral lands under sustainable land management": {
-                                    "Additional Pastoral and Agropastoral lands under sustainable land management": {
-                                        "Unit of Measurement": "Hectares",
-                                        "Baseline": "Baseline survey in Feb-March-2024",
-                                        "Mid-Term Target": "2,500",
-                                        "End Target": "5,000",
-                                        "Frequency": "Monthly, Quartely & Annually",
-                                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "OUTPUT STATEMENT 1.3": {
-                        "Climate-smart innovations and technologies promoted and harmonised across the Horn of Africa": {
-                            "Unit of Measurement": "",
-                            "Baseline": "",
-                            "Mid-Term Target": "",
-                            "End Target": "",
-                            "Frequency": "Monthly, Quartely & Annually",
-                            "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                            "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants",
-                            "OUTPUT INDICATOR 1.3.1": {
-                                "Access to TAAT innovative technologies and practices by farmers and Agro-pastoralist": {
-                                    "Pastoralists and farmers with access to TAAT innovative technologies and practices": {
-                                        "Unit of Measurement": "Number",
-                                        "Baseline": "Baseline survey in Feb-March-2024",
-                                        "Mid-Term Target": "2,500",
-                                        "End Target": "5,000",
-                                        "Frequency": "Monthly, Quartely & Annually",
-                                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
-                                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
-                                    }
-                                }
-                            }
-                        }
+              "Increased Resilience of Agropastoral Production Systems": {
+                "OUTCOME INDICATOR 1.1": {
+                  "Agricultural productivity (crops and livestock)": {
+                    "Unit of Measurement": "Volume of Agricultural production (crops and livestock)",
+                    "Baseline": "Baseline survey in 2024",
+                    "Mid-Term Target": "Increase by 30%",
+                    "End Target": "",
+                    "Frequency": "Monthly, Quartely & Annually",
+                    "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                    "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                  },
+                  "OUTCOME INDICATOR 1.1a": {
+                    "Agricultural productivity (Crop)": {
+                      "Maize Productivity": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Banana productivity": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Cow pea Productivity": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Sorghum Productivity": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Water Melon productivity": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Tomato productivity": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Fodder productivity": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      }
                     }
+                  },
+                  "OUTCOME INDICATOR 1.1b": {
+                    "Agricultural productivity (Livestock)": {
+                      "Indigenous chicken meat": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Milk (Cow )": {
+                        "Unit of Measurement": "Litres/year",
+                        "Baseline": "Baseline survey in Feb-March-2025",
+                        "Mid-Term Target": "",
+                        "End Target": ""
+                      },
+                      "Milk (Goat )": {
+                        "Unit of Measurement": "Litres/year",
+                        "Baseline": "Baseline survey in Feb-March-2026",
+                        "Mid-Term Target": "",
+                        "End Target": ""
+                      },
+                      "Milk (Camel)": {
+                        "Unit of Measurement": "Litres/year",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Camel Meat": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2025",
+                        "Mid-Term Target": "",
+                        "End Target": ""
+                      },
+                      "Goat meat (chevon)": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Honey": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      },
+                      "Beef": {
+                        "Unit of Measurement": "Tons/Ha",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 30%",
+                        "End Target": ""
+                      }
+                    }
+                  }
+                },
+                "OUTPUT INDICATOR 1.1.1": {
+                  "Water mobilisation infrastructure sensitive to gender (small earth dams, boreholes, covered water pans, shallow wells, water distribution systems) constructed or rehabilitated": {
+                    "Water infrastructure developed": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "27",
+                      "Mid-Term Target": "14",
+                      "End Target": "28",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Water pans/Earthdams developed": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "27",
+                      "Mid-Term Target": "14",
+                      "End Target": "28"
+                    },
+                    "Boreholes developed": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "110",
+                      "Mid-Term Target": "14",
+                      "End Target": "28"
+                    },
+                    "Shallow Wells developed": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "10",
+                      "Mid-Term Target": "14",
+                      "End Target": "28"
+                    },
+                    "Sub Surface Dams developed": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "5",
+                      "Mid-Term Target": "14",
+                      "End Target": "28"
+                    }
+                  }
+                },
+                "OUTPUT INDICATOR 1.1.2": {
+                  "Irrigation Development/rehabilitation": {
+                    "Irrigated land developed": {
+                      "Unit of Measurement": "Ha",
+                      "Baseline": "1070",
+                      "Mid-Term Target": "400",
+                      "End Target": "800",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    }
+                  }
+                },
+                "OUTPUT INDICATOR 1.1.3": {
+                  "Rangeland/Pasture development/rehabilitation": {
+                    "Rangeland/pasture rehabilitated": {
+                      "Unit of Measurement": "Ha",
+                      "Baseline": "910",
+                      "Mid-Term Target": "175",
+                      "End Target": "350",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    }
+                  }
+                },
+                "OUTPUT INDICATOR 1.1.4": {
+                  "Animal feed, health, and market access infrastructure constructed/rehabilitated": {
+                    "Health and Market Access Infrastructure Constructed/Rehabilitated": {
+                      "Hay stores/sheds constructed": {
+                        "Unit of Measurement": "Number",
+                        "Baseline": "25",
+                        "Mid-Term Target": "11",
+                        "End Target": "21",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Veterinary Laboratories Equipped": {
+                        "Unit of Measurement": "Number",
+                        "Baseline": "6",
+                        "Mid-Term Target": "4",
+                        "End Target": "7",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Livestock Sale Yards/markets Constructed": {
+                        "Unit of Measurement": "Number",
+                        "Baseline": "25",
+                        "Mid-Term Target": "11",
+                        "End Target": "21",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Access roads constructed": {
+                        "Unit of Measurement": "Kms",
+                        "Baseline": "",
+                        "Mid-Term Target": "219",
+                        "End Target": "100",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Access roads rehabilitated": {
+                        "Unit of Measurement": "Kms",
+                        "Baseline": "219",
+                        "Mid-Term Target": "50",
+                        "End Target": "100",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      }
+                    }
+                  }
+                },
+                "OUTPUT INDICATOR 1.1.5": {
+                  "IGAD regional clusters with operationalised cross-border MOUs to better control transboundary animal diseases and zoonoses": {}
+                },
+                "OUTCOME INDICATOR 1.2": {
+                  "People benefitting from improved access to cross-border, pastoral natural resources (pasture, water, and transhumance routes, structures)": {
+                    "People benefitting from improved access to cross-border, pastoral natural resources (pasture, water, and transhumance routes, structures)": {
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Number of People benefiting from cross border/transboundary water structures e.g Boreholes, water pans , irrigation schemes": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Number of People benefiting from cross border/transboundary commercial pastures plot": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Number of People benefiting from cross border/transboundary Livestock Markets": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Number of People benefiting from cross border/transboundary water structures": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Number of People benefiting from cross border/transhumnce routes": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    }
+                  }
+                },
+                "OUTPUT STATEMENT 1.2": {
+                  "Sustainable Management of Agropastoral Lands Promoted": {
+                    "OUTPUT INDICATOR 1.2.1": {
+                      "Pastoral and Agropastoral lands under sustainable land management": {
+                        "Additional Pastoral and Agropastoral lands under sustainable land management": {
+                          "Unit of Measurement": "Hectares",
+                          "Baseline": "Baseline survey in Feb-March-2024",
+                          "Mid-Term Target": "2,500",
+                          "End Target": "5,000",
+                          "Frequency": "Monthly, Quartely & Annually",
+                          "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                          "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                        }
+                      }
+                    }
+                  }
+                },
+                "OUTPUT STATEMENT 1.3": {
+                  "Climate-smart innovations and technologies promoted and harmonised across the Horn of Africa": {
+                    "OUTPUT INDICATOR 1.3.1": {
+                      "Access to TAAT innovative technologies and practices by farmers and Agro-pastoralist": {
+                        "Pastoralists and farmers with access to TAAT innovative technologies and practices": {
+                          "Unit of Measurement": "Number",
+                          "Baseline": "Baseline survey in Feb-March-2024",
+                          "Mid-Term Target": "2,500",
+                          "End Target": "5,000",
+                          "Frequency": "Monthly, Quartely & Annually",
+                          "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                          "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                        }
+                      }
+                    }
+                  }
                 }
+              }
+            },
+            "OUTCOME STATEMENT 2": {
+              "Increased Income from Agropastoral Value Chains": {
+                "OUTCOME INDICATOR 2.1": {
+                  "Annual income per capita (M/F)": {
+                    "Annual income per capita (Male)": {
+                      "Unit of Measurement": "USD",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Annual income per capita (Female)": {
+                      "Unit of Measurement": "USD",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    }
+                  }
+                },
+                "OUTCOME INDICATOR 2.2": {
+                  "Direct jobs created for youth and women": {
+                    "Direct Jobs created  for Males": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 5%",
+                      "End Target": "Increase by 10%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Direct Jobs created for Females": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 5%",
+                      "End Target": "Increase by 10%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Direct Jobs created for Youth": {
+                      "Unit of Measurement": "Number",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 5%",
+                      "End Target": "Increase by 10%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    }
+                  }
+                },
+                "OUTCOME INDICATOR 2.3": {
+                  "Trade values (Crops & Livestock value chains)": {
+                    "Quantity of Crops  Traded": {
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Quantity of Maize Traded": {
+                      "Unit of Measurement": "Tonnes",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Quantity of Banana Traded": {
+                      "Unit of Measurement": "Tonnes",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Quantity of Cow Pea Traded": {
+                      "Unit of Measurement": "Tonnes",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Quantity of Sorghum Traded": {
+                      "Unit of Measurement": "Tonnes",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Quantity of Water Melon Traded": {
+                      "Unit of Measurement": "Tonnes",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Quantity of Tomato Traded": {
+                      "Unit of Measurement": "Tonnes",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Quantity of Fodder Traded": {
+                      "Unit of Measurement": "Tonnes",
+                      "Baseline": "Baseline survey in Feb-March-2024",
+                      "Mid-Term Target": "Increase by 15%",
+                      "End Target": "Increase by 30%",
+                      "Frequency": "Monthly, Quartely & Annually",
+                      "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                      "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                    },
+                    "Values of the Livestock products  Traded": {
+                      "Quantity of Indigenous chicken  meat Traded": {
+                        "Unit of Measurement": "Tonnes",
+                        "Baseline": "Baseline survey in Feb-March-2024",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Quantity of Cow Milk Traded": {
+                        "Unit of Measurement": "Litres",
+                        "Baseline": "Baseline survey in Feb-March-2025",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Quantity of Goat Milk Traded": {
+                        "Unit of Measurement": "Litres",
+                        "Baseline": "Baseline survey in Feb-March-2026",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Quantity of Camel Milk Traded": {
+                        "Unit of Measurement": "Litres",
+                        "Baseline": "Baseline survey in Feb-March-2027",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Quantity of Camel Meat Traded": {
+                        "Unit of Measurement": "Tonnes",
+                        "Baseline": "Baseline survey in Feb-March-2028",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Quantity of Goat meat (chevon) Traded": {
+                        "Unit of Measurement": "Tonnes",
+                        "Baseline": "Baseline survey in Feb-March-2029",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Quantity of Honey Traded": {
+                        "Unit of Measurement": "Tonnes",
+                        "Baseline": "Baseline survey in Feb-March-2030",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      },
+                      "Quantity of Beef Traded": {
+                        "Unit of Measurement": "Tonnes",
+                        "Baseline": "Baseline survey in Feb-March-2031",
+                        "Mid-Term Target": "Increase by 15%",
+                        "End Target": "Increase by 30%",
+                        "Frequency": "Monthly, Quartely & Annually",
+                        "MOV": "Program Progress Reports: Quarterly, Midterm, Annual",
+                        "Responsible Agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                      }
+                    }
+                  }
+                }
+              }
             }
-        }
-    }
-}
+          }
+          
