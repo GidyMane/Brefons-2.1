@@ -44,11 +44,11 @@ const MemberCard: React.FC<MemberCardProps> = ({ member }) => {
             </div>
 
             <div className='flex items-center justify-center mt-4'>
-                <Button variant={"outline"} onClick={()=> setShowDetails(!showDetails)} className={` text-white text-center text-small rounded ${showDetails ? "bg-gray-400 text-gray-900" :"bg-[#222F3F] text-white"}`}>{!showDetails ? "more details" :"less details"}  </Button>
+                <Button variant={"outline"} onClick={()=> setShowDetails(!showDetails)} className={` text-white text-center text-small rounded ${showDetails ? "bg-gray-400 text-gray-900" :"bg-[#222F3F] text-white"}`}>{!showDetails ? "View More" :"View less"}  </Button>
             </div>
             {showDetails && members && members.length > 0 && (
                 <div className="mt-4 pl-4"> 
-                    <h4 className="text-sm font-medium text-black">Sub Members:</h4>
+                    <h4 className="text-sm font-medium text-black">More Information:</h4>
                     <div className=''>
                         {members.map((subMember) => (
                             <SubMemberCard key={subMember.id} subMember={subMember} />
