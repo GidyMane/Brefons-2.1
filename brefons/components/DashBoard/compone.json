@@ -11,7 +11,7 @@
         "endtarget": "",
         "frequency": ["Monthly", "Quartely", "Annually"],
         "mov": ["Quartely", "Midterm", "Annual"],
-        "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
+        "agency": "NPCU County Team MOALF & KNBS Consultants",
         "members": [
           {
             "id": "1.1.1",
@@ -22,7 +22,7 @@
             "endtarget": "",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
+            "agency": "NPC County Team MOALF & KNBS, Consultants",
             "members": [
               {
                 "id": "1.1.1a",
@@ -212,7 +212,7 @@
             "endtarget": "",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
+            "agency": "NPCU County Team MOALF & KNBS Consultants",
             "members": [
               {
                 "id": "1.1.2.1",
@@ -269,7 +269,7 @@
             "endtarget": "400",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+            "agency": "NPCU County Team MOALF & KNBS Consultants"
           },
           {
             "id": "1.1.4",
@@ -280,7 +280,7 @@
             "endtarget": "175",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+            "agency": "NPCU County Team MOALF & KNBS Consultants"
           },
           {
             "id": "1.1.5",
@@ -291,7 +291,7 @@
             "endtarget": "",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
+            "agency": "NPCU County Team MOALF & KNBS Consultants",
             "members": [
               {
                 "id": "1.1.5.1",
@@ -359,7 +359,7 @@
             "endtarget": "",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+            "agency": "NPCU County Team MOALF & KNBS Consultants"
           }
         ]
       },
@@ -372,7 +372,7 @@
         "endtarget": "",
         "frequency": ["Monthly", "Quartely", "Annually"],
         "mov": ["Quartely", "Midterm", "Annual"],
-        "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
+        "agency": "NPCU County Team MOALF & KNBS Consultants",
         "members": [
           {
             "id": "1.2.1",
@@ -383,7 +383,7 @@
             "endtarget": "",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
+            "agency": "NPCU County Team MOALF & KNBS Consultants",
             "members": [
               {
                 "id": "1.2.1.1",
@@ -394,7 +394,7 @@
                 "endtarget": "",
                 "frequency": ["Monthly", "Quartely", "Annually"],
                 "mov": ["Quartely", "Midterm", "Annual"],
-                "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                "agency": "NPCU County Team MOALF & KNBS Consultants"
               },
               {
                 "id": "1.2.1.2",
@@ -405,7 +405,7 @@
                 "endtarget": "",
                 "frequency": ["Monthly", "Quartely", "Annually"],
                 "mov": ["Quartely", "Midterm", "Annual"],
-                "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                "agency": "NPCU County Team MOALF & KNBS Consultants"
               },
               {
                 "id": "1.2.1.3",
@@ -416,7 +416,7 @@
                 "endtarget": "",
                 "frequency": ["Monthly", "Quartely", "Annually"],
                 "mov": ["Quartely", "Midterm", "Annual"],
-                "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                "agency": "NPCU County Team MOALF & KNBS Consultants"
               },
               {
                 "id": "1.2.1.4",
@@ -427,7 +427,7 @@
                 "endtarget": "",
                 "frequency": ["Monthly", "Quartely", "Annually"],
                 "mov": ["Quartely", "Midterm", "Annual"],
-                "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                "agency": "NPCU County Team MOALF & KNBS Consultants"
               },
               {
                 "id": "1.2.1.5",
@@ -438,7 +438,7 @@
                 "endtarget": "",
                 "frequency": ["Monthly", "Quartely", "Annually"],
                 "mov": ["Quartely", "Midterm", "Annual"],
-                "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+                "agency": "NPCU County Team MOALF & KNBS Consultants"
               }
             ]
           }
@@ -464,7 +464,7 @@
             "endtarget": "2,500",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+            "agency": "NPCU County Team MOALF & KNBS Consultants"
           }
         ]
       },
@@ -477,7 +477,7 @@
         "endtarget": "",
         "frequency": ["Monthly", "Quartely", "Annually"],
         "mov": ["Quartely", "Midterm", "Annual"],
-        "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
+        "agency": "NPCU County Team MOALF & KNBS Consultants",
         "members": [
           {
             "id": "1.4.1",
@@ -488,7 +488,7 @@
             "endtarget": "2,500",
             "frequency": ["Monthly", "Quartely", "Annually"],
             "mov": ["Quartely", "Midterm", "Annual"],
-            "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
+            "agency": "NPCU County Team MOALF & KNBS Consultants"
           }
         ]
       }
