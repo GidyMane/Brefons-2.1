@@ -10,7 +10,7 @@ interface Member {
   endtarget: string;
   frequency: string[];
   mov: string[];
-  agency: string[];
+  agency: string;
   members?: Member[]; // Optional recursive members
 }
 

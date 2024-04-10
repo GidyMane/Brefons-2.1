@@ -12,7 +12,7 @@ interface Member {
   endtarget: string;
   frequency: string[];
   mov: string[];
-  agency: string[];
+  agency: string;
   members?: Array<Member>;
 }
 
@@ -38,9 +38,9 @@ const MemberCard: React.FC<MemberCardProps> = ({ member }) => {
                     )}
                     {midtarget?.slice(midtarget.length - 3)}</p></div>
                 <div className='text-black font-bold text-md'>End Target: <span className='text-gray-600'>{endtarget}</span></div>
-                <div className='text-black font-bold text-md'>Frequency: <span className='text-gray-600'>{frequency.join(",")}</span></div>
-                <div className='text-black font-bold text-md'>MoV: <span className='text-gray-600'>{mov.join(",")}</span></div>
-                <div className='text-black font-bold text-md'>Agency: <span className='text-gray-600'>{agency.join(",")}</span></div>
+                <div className='text-black font-bold text-md'>Frequency: <span className='text-gray-600'>{frequency?.join(",")}</span></div>
+                <div className='text-black font-bold text-md'>MoV: <span className='text-gray-600'>{mov?.join(",")}</span></div>
+                <div className='text-black font-bold text-md'>Agency: <span className='text-gray-600'>{agency}</span></div>
             </div>
 
             <div className='flex items-center justify-center mt-4'>
