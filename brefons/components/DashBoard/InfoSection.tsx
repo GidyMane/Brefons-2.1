@@ -7,22 +7,22 @@ import ComponentFour from './ComponentFour'
 
 const tabs = [
     {
-        title: "Component 1: Strengthening the resilience of Agro-Pastoral production systems",
+        title: "Strengthening the resilience of Agro-Pastoral production systems",
         value: "irrigation",
         content: <ComponentOne/>
     },
     {
-        title: "COMPONENT 2: Agribusiness and Trade Development Supported",
+        title: "Agribusiness and Trade Development Supported",
         value: "component 2",
         content: <ComponentTwo/>
     },
     {
-        title: "COMPONENT 3: Strengthening Agropastoral Communities’ Capacity to Adapt to Climate Change",
+        title: "Strengthening Agropastoral Communities’ Capacity to Adapt to Climate Change",
         value: "component 3",
         content: <ComponentThree/>
     },
     {
-        title: "COMPONENT 4: Program Coordination and Knowledge Management",
+        title: "Program Coordination and Knowledge Management",
         value: "component 4",
         content: <ComponentFour/>
     }
