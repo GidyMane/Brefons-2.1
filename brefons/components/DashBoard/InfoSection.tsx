@@ -12,17 +12,17 @@ const tabs = [
         content: <ComponentOne/>
     },
     {
-        title: "Comp2",
+        title: "COMPONENT 2: Agribusiness and Trade Development Supported",
         value: "component 2",
         content: <ComponentTwo/>
     },
     {
-        title: "Comp3",
+        title: "COMPONENT 3: Strengthening Agropastoral Communities’ Capacity to Adapt to Climate Change",
         value: "component 3",
         content: <ComponentThree/>
     },
     {
-        title: "Comp4",
+        title: "COMPONENT 4: Program Coordination and Knowledge Management",
         value: "component 4",
         content: <ComponentFour/>
     }
