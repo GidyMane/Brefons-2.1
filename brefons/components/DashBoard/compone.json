@@ -36,7 +36,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -47,7 +48,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -58,7 +60,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -69,7 +72,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -80,7 +84,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -91,7 +96,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -102,7 +108,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   }
                 ]
@@ -119,7 +126,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -130,7 +138,8 @@
                     "midtarget": "",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -141,7 +150,8 @@
                     "midtarget": "",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -152,7 +162,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -163,7 +174,8 @@
                     "midtarget": "",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -174,7 +186,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -185,7 +198,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   },
                   {
@@ -196,7 +210,8 @@
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
                     "frequency": [],
-                    "mov": "",
+                    "mov": [],
+
                     "agency": ""
                   }
                 ]
@@ -222,7 +237,8 @@
                 "midtarget": "14",
                 "endtarget": "28",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               },
               {
@@ -233,7 +249,8 @@
                 "midtarget": "14",
                 "endtarget": "28",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               },
               {
@@ -244,7 +261,8 @@
                 "midtarget": "14",
                 "endtarget": "28",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               },
               {
@@ -255,7 +273,8 @@
                 "midtarget": "14",
                 "endtarget": "28",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               }
             ]
@@ -301,7 +320,8 @@
                 "midtarget": "11",
                 "endtarget": "21",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               },
               {
@@ -312,7 +332,8 @@
                 "midtarget": "4",
                 "endtarget": "7",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               },
               {
@@ -323,7 +344,8 @@
                 "midtarget": "11",
                 "endtarget": "21",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               },
               {
@@ -334,7 +356,8 @@
                 "midtarget": "219",
                 "endtarget": "50",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               },
               {
@@ -345,7 +368,8 @@
                 "midtarget": "50",
                 "endtarget": "100",
                 "frequency": [],
-                "mov": "",
+                "mov": [],
+
                 "agency": ""
               }
             ]
@@ -452,7 +476,8 @@
         "midtarget": "",
         "endtarget": "",
         "frequency": [],
-        "mov": "",
+        "mov": [],
+
         "agency": "",
         "members": [
           {
