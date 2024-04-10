@@ -35,7 +35,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -46,7 +46,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -57,7 +57,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -68,7 +68,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -79,7 +79,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -90,7 +90,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -101,7 +101,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   }
@@ -118,7 +118,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -129,7 +129,7 @@
                     "baseline": "Baseline survey in Feb-March-2025",
                     "midtarget": "",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -140,7 +140,7 @@
                     "baseline": "Baseline survey in Feb-March-2026",
                     "midtarget": "",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -151,7 +151,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -162,7 +162,7 @@
                     "baseline": "Baseline survey in Feb-March-2025",
                     "midtarget": "",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -173,7 +173,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -184,7 +184,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   },
@@ -195,7 +195,7 @@
                     "baseline": "Baseline survey in Feb-March-2024",
                     "midtarget": "Increase by 30%",
                     "endtarget": "",
-                    "frequency": "",
+                    "frequency": [],
                     "mov": "",
                     "agency": ""
                   }
@@ -221,7 +221,7 @@
                 "baseline": "27",
                 "midtarget": "14",
                 "endtarget": "28",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               },
@@ -232,7 +232,7 @@
                 "baseline": "110",
                 "midtarget": "14",
                 "endtarget": "28",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               },
@@ -243,7 +243,7 @@
                 "baseline": "10",
                 "midtarget": "14",
                 "endtarget": "28",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               },
@@ -254,7 +254,7 @@
                 "baseline": "5",
                 "midtarget": "14",
                 "endtarget": "28",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               }
@@ -300,7 +300,7 @@
                 "baseline": "25",
                 "midtarget": "11",
                 "endtarget": "21",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               },
@@ -311,7 +311,7 @@
                 "baseline": "6",
                 "midtarget": "4",
                 "endtarget": "7",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               },
@@ -322,7 +322,7 @@
                 "baseline": "25",
                 "midtarget": "11",
                 "endtarget": "21",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               },
@@ -333,7 +333,7 @@
                 "baseline": "",
                 "midtarget": "219",
                 "endtarget": "50",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               },
@@ -344,7 +344,7 @@
                 "baseline": "219",
                 "midtarget": "50",
                 "endtarget": "100",
-                "frequency": "",
+                "frequency": [],
                 "mov": "",
                 "agency": ""
               }
@@ -451,7 +451,7 @@
         "baseline": "",
         "midtarget": "",
         "endtarget": "",
-        "frequency": "",
+        "frequency": [],
         "mov": "",
         "agency": "",
         "members": [

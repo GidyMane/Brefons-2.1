@@ -10,7 +10,7 @@
         "midtarget": "",
         "endtarget": "",
         "frequency": ["Monthly", "Quartely", "Annually"],
-        "mov": ["Quartely", "Midterm", "Annual"],
+            
         "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
         "members": [
           {
