@@ -19,7 +19,7 @@ const indicators = [
         title: "Agricultural productivity (Crops and Livestock)",
         indicators: [
             {
-                title: "CROPS",
+                title: "1.1.1",
                 cards: [
                     {
                         name: "Irrigation Schemes",
