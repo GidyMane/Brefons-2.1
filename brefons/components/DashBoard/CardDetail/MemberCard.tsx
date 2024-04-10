@@ -44,7 +44,7 @@ const MemberCard: React.FC<MemberCardProps> = ({ member }) => {
             </div>
 
             <div className='flex items-center justify-center mt-4'>
-                <Button variant={"outline"} onClick={()=> setShowDetails(!showDetails)} className={` text-white text-center text-small rounded ${showDetails ? "bg-gray-400 text-gray-900" :"bg-[#222F3F]"}`}>{!showDetails ? "more details" :"less details"}  </Button>
+                <Button variant={"outline"} onClick={()=> setShowDetails(!showDetails)} className={` text-white text-center text-small rounded ${showDetails ? "bg-gray-400 text-gray-900" :"bg-[#222F3F] text-white"}`}>{!showDetails ? "more details" :"less details"}  </Button>
             </div>
             {showDetails && members && members.length > 0 && (
                 <div className="mt-4 pl-4"> 
