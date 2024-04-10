@@ -5,6 +5,13 @@
       {
         "id": "1.1",
         "title": "Agricultural productivity (crops and livestock)",
+        "unit": "Volume of Agricultural production (crops and livestock)",
+        "baseline": "Baseline survey in 2024",
+        "midtarget": "Increase by 30%",
+        "endtarget": "",
+        "frequency": ["Monthly", "Quartely", "Annually"],
+        "mov": ["Quartely", "Midterm", "Annual"],
+        "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
         "members": [
           {
             "id": "1.1.1",
@@ -13,8 +20,8 @@
             "baseline": "Baseline survey in 2024",
             "midtarget": "Increase by 30%",
             "endtarget": "",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
             "members": [
               {
@@ -203,8 +210,8 @@
             "baseline": "",
             "midtarget": "",
             "endtarget": "",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
             "members": [
               {
@@ -260,8 +267,8 @@
             "baseline": "Ha",
             "midtarget": "1070",
             "endtarget": "400",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
           },
           {
@@ -271,8 +278,8 @@
             "baseline": "Ha",
             "midtarget": "910",
             "endtarget": "175",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
           },
           {
@@ -282,8 +289,8 @@
             "baseline": "",
             "midtarget": "",
             "endtarget": "",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
             "members": [
               {
@@ -350,8 +357,8 @@
             "baseline": "",
             "midtarget": "",
             "endtarget": "",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
           }
         ]
@@ -363,8 +370,8 @@
         "baseline": "Baseline survey in Feb-March-2024",
         "midtarget": "",
         "endtarget": "",
-        "frequency": "Monthly, Quartely & Annually",
-        "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+        "frequency": ["Monthly", "Quartely", "Annually"],
+        "mov": ["Quartely", "Midterm", "Annual"],
         "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
         "members": [
           {
@@ -374,8 +381,8 @@
             "baseline": "Baseline survey in Feb-March-2024",
             "midtarget": "",
             "endtarget": "",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
             "members": [
               {
@@ -385,8 +392,8 @@
                 "baseline": "",
                 "midtarget": "",
                 "endtarget": "",
-                "frequency": "Monthly, Quartely & Annually",
-                "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+                "frequency": ["Monthly", "Quartely", "Annually"],
+                "mov": ["Quartely", "Midterm", "Annual"],
                 "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
               },
               {
@@ -396,8 +403,8 @@
                 "baseline": "",
                 "midtarget": "",
                 "endtarget": "",
-                "frequency": "Monthly, Quartely & Annually",
-                "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+                "frequency": ["Monthly", "Quartely", "Annually"],
+                "mov": ["Quartely", "Midterm", "Annual"],
                 "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
               },
               {
@@ -407,8 +414,8 @@
                 "baseline": "",
                 "midtarget": "",
                 "endtarget": "",
-                "frequency": "Monthly, Quartely & Annually",
-                "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+                "frequency": ["Monthly", "Quartely", "Annually"],
+                "mov": ["Quartely", "Midterm", "Annual"],
                 "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
               },
               {
@@ -418,8 +425,8 @@
                 "baseline": "",
                 "midtarget": "",
                 "endtarget": "",
-                "frequency": "Monthly, Quartely & Annually",
-                "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+                "frequency": ["Monthly", "Quartely", "Annually"],
+                "mov": ["Quartely", "Midterm", "Annual"],
                 "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
               },
               {
@@ -429,8 +436,8 @@
                 "baseline": "",
                 "midtarget": "",
                 "endtarget": "",
-                "frequency": "Monthly, Quartely & Annually",
-                "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+                "frequency": ["Monthly", "Quartely", "Annually"],
+                "mov": ["Quartely", "Midterm", "Annual"],
                 "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
               }
             ]
@@ -455,8 +462,8 @@
             "baseline": "Hectares",
             "midtarget": "Baseline survey in Feb-March-2024",
             "endtarget": "2,500",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
           }
         ]
@@ -468,8 +475,8 @@
         "baseline": "",
         "midtarget": "",
         "endtarget": "",
-        "frequency": "Monthly, Quartely & Annually",
-        "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+        "frequency": ["Monthly", "Quartely", "Annually"],
+        "mov": ["Quartely", "Midterm", "Annual"],
         "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
         "members": [
           {
@@ -479,97 +486,9 @@
             "baseline": "Number",
             "midtarget": "Baseline survey in Feb-March-2024",
             "endtarget": "2,500",
-            "frequency": "Monthly, Quartely & Annually",
-            "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
+            "frequency": ["Monthly", "Quartely", "Annually"],
+            "mov": ["Quartely", "Midterm", "Annual"],
             "agency": "NPCU, County Team, MOALF & KNBS, Consultants"
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "Increased Income from Agropastoral Value Chains",
-        "members": [
-          {
-            "id": "2.1",
-            "title": "Annual income per capita (M/F)",
-            "members": [
-              {
-                "id": "2.1.1",
-                "title": "Annual income per capita (M/F)",
-                "unit": "Annual income per capita (M/F)",
-                "baseline": "",
-                "midtarget": "",
-                "endtarget": "",
-                "frequency": "Monthly, Quartely & Annually",
-                "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
-                "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
-                "members": [
-                  {
-                    "id": "2.1.1.1",
-                    "title": "Annual income per capita (Male)",
-                    "unit": "Kshs",
-                    "baseline": "",
-                    "midtarget": "Increase by 30%",
-                    "endtarget": "",
-                    "frequency": "",
-                    "mov": "",
-                    "agency": ""
-                  },
-                  {
-                    "id": "2.1.1.2",
-                    "title": "Annual income per capita (Female)",
-                    "unit": "Kshs",
-                    "baseline": "",
-                    "midtarget": "Increase by 30%",
-                    "endtarget": "",
-                    "frequency": "",
-                    "mov": "",
-                    "agency": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "2.2",
-            "title": "Total value of exports, by sectors (millions USD)",
-            "members": [
-              {
-                "id": "2.2.1",
-                "title": "Total value of exports, by sectors (millions USD)",
-                "unit": "Millions USD",
-                "baseline": "",
-                "midtarget": "",
-                "endtarget": "",
-                "frequency": "Monthly, Quartely & Annually",
-                "mov": "Program Progress Reports: Quarterly, Midterm, Annual",
-                "agency": "NPCU, County Team, MOALF & KNBS, Consultants",
-                "members": [
-                  {
-                    "id": "2.2.1.1",
-                    "title": "Value of Livestock Exports",
-                    "unit": "Millions USD",
-                    "baseline": "",
-                    "midtarget": "Increase by 30%",
-                    "endtarget": "",
-                    "frequency": "",
-                    "mov": "",
-                    "agency": ""
-                  },
-                  {
-                    "id": "2.2.1.2",
-                    "title": "Value of Crop Exports",
-                    "unit": "Millions USD",
-                    "baseline": "",
-                    "midtarget": "Increase by 30%",
-                    "endtarget": "",
-                    "frequency": "",
-                    "mov": "",
-                    "agency": ""
-                  }
-                ]
-              }
-            ]
           }
         ]
       }
