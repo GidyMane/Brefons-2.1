@@ -1,10 +1,10 @@
 {
     "id": "3",
-    "title": "Strengthening Agropastoral Communities’ Capacity to Adapt to Climate Change",
+    "title": "Component 3: Strengthening Agropastoral Communities’ Capacity to Adapt to Climate Change",
     "members": [
       {
         "id": "3.1",
-        "title": "Improved Populations’ Capacity to Manage and Adapt to Climate Change Risks",
+        "title": "Outcome Statement 3: Improved Populations’ Capacity to Manage and Adapt to Climate Change Risks",
         "indicators": [
           {
             "id": "3.1",
@@ -21,11 +21,11 @@
       },
       {
         "id": "3.2",
-        "title": "Enhanced climate services infrastructure",
+        "title": "Outcome Statement 3.1: Enhanced climate services infrastructure",
         "indicators": [
           {
             "id": "3.1.1",
-            "title": "Climate products and services for agriculture and livestock developed",
+            "title": "Output indicator 3.1.1: Climate products and services for agriculture and livestock developed",
             "unit": "Number",
             "baseline": "Baseline survey in Feb-March-2024",
             "midtarget": "5",
@@ -36,11 +36,11 @@
           },
           {
             "id": "3.2.1",
-            "title": "Uptake of climate risk financing and insurance solutions",
+            "title": "Outcome indicator 3.2.1: Uptake of climate risk financing and insurance solutions",
             "subindicators": [
               {
                 "id": "3.2.1a",
-                "title": "Climate risk financing solutions uptake",
+                "title": "Outcome indicator 3.2.2: Climate risk financing solutions uptake",
                 "unit": "Number",
                 "baseline": "Baseline survey in Feb-March-2024",
                 "midtarget": "Increased by 15",
@@ -51,7 +51,7 @@
               },
               {
                 "id": "3.2.1b",
-                "title": "Climate insurance solutions uptake",
+                "title": "Output indicator 3.2.1: Climate insurance solutions uptake",
                 "unit": "Number",
                 "baseline": "Baseline survey in Feb-March-2024",
                 "midtarget": "Increased by 15",
@@ -64,7 +64,7 @@
           },
           {
             "id": "3.3",
-            "title": "Operational capacity of regional resilience programme strengthened",
+            "title": "Output statement 3.3: Operational capacity of regional resilience programme strengthened",
             "unit": "Number",
             "baseline": "0",
             "midtarget": "",
