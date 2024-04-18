@@ -1,10 +1,10 @@
 {
     "id": "1",
-    "title": "Increased Resilience of Agropastoral Production Systems",
+    "title": "Outcome Statement 1: Increased Resilience of Agropastoral Production Systems",
     "members": [
       {
         "id": "1.1",
-        "title": "Agricultural productivity (crops and livestock)",
+        "title": "Indicator 1.1: Agricultural productivity (crops and livestock)",
         "unit": "Volume of Agricultural production (crops and livestock)",
         "baseline": "Baseline survey in 2024",
         "midtarget": "Increase by 30%",
@@ -15,7 +15,7 @@
         "members": [
           {
             "id": "1.1.1",
-            "title": "Agricultural productivity (crops and livestock)",
+            "title": "Outcome Indicator 1.1a: Agricultural productivity (crops and livestock)",
             "unit": "Volume of Agricultural production (crops and livestock)",
             "baseline": "Baseline survey in 2024",
             "midtarget": "Increase by 30%",
@@ -389,7 +389,7 @@
       },
       {
         "id": "1.2",
-        "title": "People benefitting from improved access to cross-border, pastoral natural resources (pasture, water, and transhumance routes, structures)",
+        "title": "Indicator 1.2:People benefitting from improved access to cross-border, pastoral natural resources (pasture, water, and transhumance routes, structures)",
         "unit": "People benefitting from improved access to cross-border, pastoral natural resources (pasture, water, and transhumance routes, structures)",
         "baseline": "Baseline survey in Feb-March-2024",
         "midtarget": "",
@@ -470,7 +470,7 @@
       },
       {
         "id": "1.3",
-        "title": "Sustainable Management of Agropastoral Lands Promoted",
+        "title": "Output Statement 1.2: Sustainable Management of Agropastoral Lands Promoted",
         "unit": "Sustainable Management of Agropastoral Lands",
         "baseline": "",
         "midtarget": "",
@@ -495,7 +495,7 @@
       },
       {
         "id": "1.4",
-        "title": "Climate-smart innovations and technologies promoted and harmonised across the Horn of Africa",
+        "title": "Output Statement 1.3: Climate-smart innovations and technologies promoted and harmonised across the Horn of Africa",
         "unit": "Access to TAAT innovative technologies and practices by farmers and Agro-pastoralist",
         "baseline": "",
         "midtarget": "",
