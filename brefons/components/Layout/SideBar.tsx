@@ -16,7 +16,7 @@ type Anchor = 'top' | 'left' | 'bottom' | 'right';
 const menu = {
     "home": [
         {
-            gif: "/reports.gif",
+            gif: "/dashboard.gif",
             fallback: "dashboard",
             name: "Dashboard",
             link: "/dashboard"
