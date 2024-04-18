@@ -18,8 +18,8 @@ const menu = {
         {
             gif: "/dashboard.gif",
             fallback: "dashboard",
-            name: "Dashboard",
-            link: "/dashboard"
+            name: "Components",
+            link: "/component"
         },
         {
             gif: "/reports.gif",
