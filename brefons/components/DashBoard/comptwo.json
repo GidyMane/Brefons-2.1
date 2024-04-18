@@ -1,10 +1,10 @@
 {
     "id": "2",
-    "title": "Agribusiness and Trade Development Supported",
+    "title": "Component 2: Agribusiness and Trade Development Supported",
     "members": [
       {
         "id": "2.1",
-        "title": "Access provided to digital advisory services",
+        "title": "Output Statement 2.1: Access provided to digital advisory services",
         "unit": "Access provided to digital advisory service",
         "baseline": "",
         "midtarget": "",
@@ -15,7 +15,7 @@
         "members": [
           {
             "id": "2.1.1",
-            "title": "Farmers and pastoralists benefiting from an extension on using digital advisory services under the program",
+            "title": "Output Indicator 2.1.1: Farmers and pastoralists benefiting from an extension on using digital advisory services under the program",
             "unit": "Number",
             "baseline": "Baseline survey in Feb-March-2031",
             "midtarget": "2500",
@@ -28,7 +28,7 @@
       },
       {
         "id": "2.2",
-        "title": "Inclusive entrepreneurship and trade promoted",
+        "title": "Output Statement 2.2: Inclusive entrepreneurship and trade promoted",
         "unit": "People benefitting from enhanced entrepreneurship skills development and access to finance",
         "baseline": "",
         "midtarget": "",
@@ -39,7 +39,7 @@
         "members": [
           {
             "id": "2.2.1",
-            "title": "People benefitting from enhanced entrepreneurship skills development and access to finance",
+            "title": "Output Indicator 2.2.1:People benefitting from enhanced entrepreneurship skills development and access to finance",
             "unit": "Number",
             "baseline": "Baseline survey in Feb-March-2024",
             "midtarget": "1500",
@@ -52,7 +52,7 @@
       },
       {
         "id": "2.3",
-        "title": "Access to Renewable Energy Facilitated",
+        "title": "Output Statement 2.3: Access to Renewable Energy Facilitated",
         "unit": "People with access to renewable energy for households",
         "baseline": "",
         "midtarget": "",
@@ -63,7 +63,7 @@
         "members": [
           {
             "id": "2.3.1",
-            "title": "People with access to renewable energy for households",
+            "title": "Output Indicator 2.3.1:People with access to renewable energy for households",
             "unit": "Number",
             "baseline": "Baseline survey in Feb-March-2024",
             "midtarget": "1000",
