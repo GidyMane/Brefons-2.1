@@ -17,6 +17,12 @@ const menu = {
     "home": [
         {
             gif: "/reports.gif",
+            fallback: "dashboard",
+            name: "Dashboard",
+            link: "/dashboard"
+        },
+        {
+            gif: "/reports.gif",
             fallback: "reports",
             name: "Reports",
             link: "/reports"
